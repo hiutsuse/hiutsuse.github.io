@@ -2,8 +2,8 @@
 layout: default
 ---
 <!-- ===== ヒーローイメージ ===== -->
-<figure class="full-bleed" style="--hero-url: url({{ page.hero_image }})">
-  <img src="{{ page.hero_image }}" alt="ヒーローイメージ">
+<figure class="full-bleed" style="--hero-url: url({{ page.hero_image | relative_url }})">
+  <img src="{{ page.hero_image | relative_url }}" alt="ヒーローイメージ">
 </figure>
 <!-- ===== 記事ヘッダー ===== -->
 <div class="container">

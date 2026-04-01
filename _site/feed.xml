@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-04-02T02:08:28+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">てつなぎの非現世愛慕</title><subtitle>ぱらそるによる、非現世への愛慕を綴るポータルサイト</subtitle><entry><title type="html">今日のごはん</title><link href="http://localhost:4000/articles/my-post/" rel="alternate" type="text/html" title="今日のごはん" /><published>2026-04-02T00:00:00+09:00</published><updated>2026-04-02T00:00:00+09:00</updated><id>http://localhost:4000/articles/my-post</id><content type="html" xml:base="http://localhost:4000/articles/my-post/"><![CDATA[]]></content><author><name></name></author><category term="tech" /><category term="diary" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ついに……</title><link href="http://localhost:4000/articles/first/" rel="alternate" type="text/html" title="ついに……" /><published>2026-04-02T00:00:00+09:00</published><updated>2026-04-02T00:00:00+09:00</updated><id>http://localhost:4000/articles/first</id><content type="html" xml:base="http://localhost:4000/articles/first/"><![CDATA[<p>こんにちは</p>
+
+<p>今回言いたいことはこれだよ</p>
+
+<h2 id="jekyllのインストール">Jekyllのインストール</h2>
+
+<p>快適になるとは聞いていた物の、導入難しいのう！！！</p>
+
+<p>な～んでだれも自作レイアウトでやらへんねん！！！！</p>
+
+<p>…こんかいはこの辺で。</p>]]></content><author><name></name></author><category term="tech" /><category term="daily" /><category term="development" /><summary type="html"><![CDATA[こんにちは]]></summary></entry></feed>
