@@ -5,7 +5,7 @@ description: "ぱらそるによる、非現世への愛慕を綴るポータル
 # URLの設定（ここが超重要！）
 # GitHub Pagesで「username.github.io」にするなら baseurl は空でOK！
 # もし「username.github.io/my-site/」みたいにするなら "/my-site" って書いてね。
-baseurl: "" 
+baseurl: "/hiutsuse.github.io" 
 url: "https://hiutsuse.github.io"
 
 # 記事のURLを「/articles/タイトル/」にする設定
