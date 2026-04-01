@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<!-- ===== ヒーローイメージ ===== -->
+<figure class="full-bleed" style="--hero-url: url({{ page.hero_image }})">
+  <img src="{{ page.hero_image }}" alt="ヒーローイメージ">
+</figure>
+<!-- ===== 記事ヘッダー ===== -->
+<div class="container">
+  <header>
+    <h1>{{ page.title }}</h1>
+    <p class="subtitle">{{ page.subtitle }}</p>
+    <div class="meta-info">
+      <p>{{ page.author }}</p>
+      <time datetime="2025-03-21">{{ page.date | date: "%Y年%m月%d日" }}</time>
+      <!-- タグ一覧 -->
+      <ul class="tags">
+        {% for tag_id in page.tags %}
+          {% assign tag_info = site.data.tags[tag_id] %}
+          {% assign tag_name = tag_info.name %}
+          {% assign tag_category = tag_info.category %}
+          {% assign tag_color = site.data.category[tag_category] %}
+          {% if tag_info %}
+            <li style="background-color: {{ tag_color }};">
+              {{ tag_name }}
+            </li>
+          {% else %}
+            <li>{{ tag_id }}</li> {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </header>
+  <!-- ===== ナビゲーション(目次とか人物・背景とか適宜変更しようね) ===== -->
+  {% if page.toc %}
+    <nav>
+      <div class="toc">
+        <p>目次</p>
+        <ol>
+        </ol>
+      </div>
+    </nav>
+  {% endif %}
+  <!-- ===== 本文 ===== -->
+  <article>
+    {{ content }}
+  </article>

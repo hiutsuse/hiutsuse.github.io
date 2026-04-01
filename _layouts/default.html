@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <title>{{ page.title }}</title>
+  <!-- Thanks to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=M+PLUS+1+Code&family=Noto+Sans+KR&family=Noto+Sans+SC&family=Noto+Sans+TC&family=Zen+Antique&family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/vs2015.css">
+</head>
+<body>
+  <!-- header -->
+  {% include header.html %}
+  <main>
+    <!-- post -->
+      {{ content }}
+
+      <footer>
+        <p>最後までお読みいただきありがとうございました！</p>
+        <p>ご意見・ご感想はぜひ はてなブックマーク へお願いします。</p>
+        <div class="spread-links">
+          <div class="hatena">
+            <a href="#" target="_blank" rel="nofollow noopener" id="share-hatena" title="はてなブックマークに投稿"><img src="{{ '/assets/img/hatena-bookmark-icon.svg' | relative_url }}" width="16px"></a>
+          </div>
+          <div class="x">
+            <a href="#" target="_blank" rel="nofollow noopener" id="share-x" title="Xでシェア"><i class="bi bi-twitter-x"></i></a>
+          </div>
+          <div class="line">
+            <a href="#" target="_blank" rel="nofollow noopener" id="share-line" title="LINEで共有"><i class="bi bi-line"></i></a>
+          </div>
+        </div>
+        <div class="author-card">
+          <p class="name">ぱらそる</p>
+          <p class="desc">プログラミング・ゲーム・デザイン・AI・PC・インターネットをこよなく愛する。愛してるだけ。</p>
+          <p class="more">詳細は<a href="">自己紹介ページ</a></p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- other-articles -->
+    {% include other-articles.html %}
+
+    <div class="to-top full-bleed"><a href="#top"><i class="bi bi-arrow-bar-up"></i></a></div>
+  </main>
+  <!-- footer -->
+  {% include footers.html %}
+  
+  <!-- 非表示で埋め込む -->
+  <svg style="display:none">
+    <filter id="figureBackFilter">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feBlend in="SourceGraphic" in2="blur" mode="screen"/>
+    </filter>
+  </svg>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
+  
+  <!-- and it's easy to individually load additional languages -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/languages/go.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dedent@1.0.1/dist/dedent.umd.js"></script>
+  <script src="{{ '/assets/scripts/main.js' | relative_url }}"></script>
+</body>
+</html>
