@@ -1,4 +1,5 @@
 ---
+layout: "post"
 title: "tetete"
 subtitle: "te"
 tags: ["tech", "daily", "development"]
