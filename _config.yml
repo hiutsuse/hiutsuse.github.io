@@ -1,0 +1,37 @@
+# サイトの基本情報
+title: "てつなぎの非現世愛慕"
+description: "ぱらそるによる、非現世への愛慕を綴るポータルサイト"
+
+# URLの設定（ここが超重要！）
+# GitHub Pagesで「username.github.io」にするなら baseurl は空でOK！
+# もし「username.github.io/my-site/」みたいにするなら "/my-site" って書いてね。
+baseurl: "" 
+url: "https://hiutsuse.github.io"
+
+# 記事のURLを「/articles/タイトル/」にする設定
+permalink: /articles/:title/
+
+# 使うツールたちの設定
+markdown: kramdown
+highlighter: rouge
+
+defaults:
+  - scope:
+      path: "" # サイト全体のファイル
+    values:
+      layout: "default"
+  - scope:
+      path: "_posts" # 記事フォルダの中だけ
+    values:
+      layout: "post"     # 自動で layout: post になる！
+      show_toc: false      # デフォルトで目次を表示する設定に！
+
+# ビルドするときに無視してほしいファイル
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
