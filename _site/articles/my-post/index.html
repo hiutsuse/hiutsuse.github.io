@@ -8,9 +8,10 @@
   <!-- Thanks to Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=M+PLUS+1+Code&family=Noto+Sans+KR&family=Noto+Sans+SC&family=Noto+Sans+TC&family=Zen+Antique&family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/vs2015.css">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=M+PLUS+1+Code&family=Noto+Sans+KR&family=Noto+Sans+SC&family=Noto+Sans+TC&family=Zen+Antique&family=Zen+Kaku+Gothic+New&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=M+PLUS+1+Code&family=Noto+Sans+KR&family=Noto+Sans+SC&family=Noto+Sans+TC&family=Zen+Antique&family=Zen+Kaku+Gothic+New&display=swap" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/vs2015.css" media="print" onload="this.media='all'">
 </head>
 <body>
   <!-- header -->
@@ -52,7 +53,7 @@
     <!-- post -->
       <!-- ===== ヒーローイメージ ===== -->
 <figure class="full-bleed" style="--hero-url: url()">
-  <img src="" alt="ヒーローイメージ">
+  <img src="" alt="ヒーローイメージ" fetchpriority="high">
 </figure>
 <!-- ===== 記事ヘッダー ===== -->
 <div class="container">
@@ -106,7 +107,7 @@
         <p>ご意見・ご感想はぜひ はてなブックマーク へお願いします。</p>
         <div class="spread-links">
           <div class="hatena">
-            <a href="#" target="_blank" rel="nofollow noopener" id="share-hatena" title="はてなブックマークに投稿"><img src="/assets/img/common/hatena-bookmark-icon.svg" width="16px"></a>
+            <a href="#" target="_blank" rel="nofollow noopener" id="share-hatena" title="はてなブックマークに投稿" alt="はてなブックマークのアイコン"><img src="/assets/img/common/hatena-bookmark-icon.svg" width="16px"></a>
           </div>
           <div class="x">
             <a href="#" target="_blank" rel="nofollow noopener" id="share-x" title="Xでシェア"><i class="bi bi-twitter-x"></i></a>
