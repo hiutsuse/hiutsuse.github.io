@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-04-02T15:45:12+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">てつなぎの非現世愛慕</title><subtitle>ぱらそるによる、非現世への愛慕を綴るポータルサイト</subtitle><entry><title type="html">Jekyllの導入が思ったよりも大変だったこと</title><link href="http://localhost:4000/articles/second/" rel="alternate" type="text/html" title="Jekyllの導入が思ったよりも大変だったこと" /><published>2026-04-02T00:00:00+09:00</published><updated>2026-04-02T00:00:00+09:00</updated><id>http://localhost:4000/articles/second</id><content type="html" xml:base="http://localhost:4000/articles/second/"><![CDATA[<p>こんにちは</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-04-03T01:01:20+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">てつなぎの非現世愛慕</title><subtitle>ぱらそるによる、非現世への愛慕を綴るポータルサイト</subtitle><entry><title type="html">Jekyllの導入が思ったよりも大変だったこと</title><link href="http://localhost:4000/articles/second/" rel="alternate" type="text/html" title="Jekyllの導入が思ったよりも大変だったこと" /><published>2026-04-02T00:00:00+09:00</published><updated>2026-04-02T00:00:00+09:00</updated><id>http://localhost:4000/articles/second</id><content type="html" xml:base="http://localhost:4000/articles/second/"><![CDATA[<p>こんにちは</p>
 
 <p>この記事って、Jekyllを通して.mdファイルを一定の形式でHTMLにレンダリングしてるんですよね。</p>
 
@@ -40,59 +40,49 @@
 
   <p>…今回はこの辺で。さあ、まだまだやることがあるぞお。</p>
 
-</section>]]></content><author><name></name></author><category term="tech" /><category term="daily" /><category term="development" /><summary type="html"><![CDATA[こんにちは]]></summary></entry><entry><title type="html">【緊急検証】食パンの角で頭をぶつけたら本当に記憶喪失になるのか！？</title><link href="http://localhost:4000/articles/fuzake/" rel="alternate" type="text/html" title="【緊急検証】食パンの角で頭をぶつけたら本当に記憶喪失になるのか！？" /><published>2026-04-02T00:00:00+09:00</published><updated>2026-04-02T00:00:00+09:00</updated><id>http://localhost:4000/articles/fuzake</id><content type="html" xml:base="http://localhost:4000/articles/fuzake/"><![CDATA[<p>皆、おっはよー！✨ 最近「曲がり角で食パンをくわえた美少女と衝突する」っていう伝説のイベントが絶滅危惧種になってるよね。悲しみー！😭</p>
+</section>]]></content><author><name></name></author><category term="tech" /><category term="daily" /><category term="development" /><summary type="html"><![CDATA[こんにちは]]></summary></entry><entry><title type="html">店内放送！！</title><link href="http://localhost:4000/articles/inside-the-store/" rel="alternate" type="text/html" title="店内放送！！" /><published>2026-04-02T00:00:00+09:00</published><updated>2026-04-02T00:00:00+09:00</updated><id>http://localhost:4000/articles/inside-the-store</id><content type="html" xml:base="http://localhost:4000/articles/inside-the-store/"><![CDATA[<iframe src="https://www.youtube.com/embed/lhkfZTArw28?list=PLysmIQi4ZWRcH_WvJWEGQOlosgMcbRxyQ" title="イオン・イオンスタイル直営売場で必ず1度は耳にする音楽" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
 
-<p>でも、あたしは気づいちゃったの。<strong>「食パンって、実は凶器になるんじゃない？」</strong>って。よくアニメとかで「食パンの角に頭をぶつけて……」みたいな（？）表現あるじゃん？（ないよ）</p>
+<p>突然ですが、これ聞いたことありますか？</p>
 
-<p>今回は、あたしが体を張って（？）その真相を確かめてみたよー！読まなきゃ損損！✌️</p>
+<p>イオンの店内放送（イオンインフォメーション）で流れてるBGMなんですけど。</p>
 
-<hr />
+<p>普段からイオン行くんですが、特にこのBGMが耳に残って。</p>
 
-<h2 id="1-検証の準備">1. 検証の準備</h2>
-<p>まずは最強の武器、もとい「食パン」を用意したよ！🍞
-今回エントリーしたのは、近所のスーパーで半額だった<strong>「超・熟成（物理）」</strong>！</p>
+<p>こういうのって大抵有料のフリー素材だから、手に入れたい！思いまして…</p>
 
-<ul>
-  <li><strong>攻撃力：</strong> 2（ふわふわ）</li>
-  <li><strong>防御力：</strong> 1（耳の部分）</li>
-  <li><strong>命中率：</strong> 100%（逃げられない）</li>
-</ul>
+<p>インターネットの海を泳ぐように検索しました。YouTube検索したらすぐにあった。やったぜ。</p>
 
-<p>これを一晩放置して、<strong>「ダイヤモンド・ブレッド」</strong>へと進化させるところからスタートだよっ！もうカッチカチ！これで叩かれたら、記憶どころか晩ごはんの献立も忘れちゃうかも……！？😱</p>
+<p>原曲は <strong>C MUSIC Professional Library</strong> さんの「<strong>Unexpected Moment</strong>」らしい。コメント欄情報非常に助かった。</p>
 
-<h2 id="2-実践角vsおでこ">2. 実践！角VSおでこ</h2>
-<p>いよいよ検証開始！
-「あーっ、遅刻遅刻ぅ〜！」って言いながら、全力で食パンの角におでこをダイブさせてみたよ！</p>
+<iframe src="https://www.youtube.com/embed/E0q-fpJAhCA" title="Unexpected Moment" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
 
-<p><strong>バキィッ！！！</strong></p>
+<p><a href="https://cmusic.jp/sounds/AL01028008/item_detail">詳細ページ</a> もあるみたいです。年間契約で、アルバムタイトルを選んで使えるみたいなので是非。（<a href="https://cmusic.jp/support/price">料金プラン</a>）</p>
 
-<p>……。
-…………。</p>
+<p>&nbsp;</p>
 
-<h2 id="3-検証結果">3. 検証結果</h2>
-<p>気になる結果は……！！</p>
+<p>…<a href="https://open.spotify.com/intl-ja/track/7uLc89R3c9Qxk3tnrMctHL?si=1e8cb0da6abf4fdc">Spotify</a> にもあるんかい！！Nash Music Libraryと一緒ですね。私は普段からSpotifyで<a href="https://open.spotify.com/intl-ja/track/5BALO3KDzddz7dNVvIxf7l?si=aae5fd07d45f488c">SC-1903</a> (ハードオフ系列店内BGM)聞いてるんで、めちゃくちゃ助かりますね！！！</p>
 
-<blockquote>
-  <p><strong>【結論】</strong>
-<strong>記憶は無くならないけど、ただただ虚しい。</strong></p>
-</blockquote>
+<p>Nash Music Libraryも余裕ができたら契約したいなあ…と思っています。</p>
 
-<p>あとね、おでこにパン粉がめっちゃつくし、普通にちょっと痛い！😭 記憶喪失になる前に「あたし何やってるんだろ……」っていう<strong>賢者タイム</strong>が爆速でやってくることが判明したよ。</p>
+<p>だって何処も使ってないからさ。<a href="https://www.nash.jp/nml/search/detail/track/NSF-309-38">有名どころの音楽</a>とか結構あるのになあ…</p>
 
-<h3 id="-わかったことまとめ">🌟 わかったことまとめ</h3>
-<ol>
-  <li>食パンは食べるもの。</li>
-  <li>角を尖らせても、所詮は小麦粉。</li>
-  <li>お母さんに「食べ物で遊ぶな」ってガチギレされる。</li>
-</ol>
+<p>&nbsp;</p>
 
-<hr />
+<p>そうそう店内放送で思い出しました。</p>
 
-<h2 id="最後に">最後に……</h2>
-<p>みんなは真似しちゃダメだよ！約束だよっ！🙅‍♀️
-もし記憶を失いたいなら、食パンじゃなくて、お風呂でアイスを食べる背徳感で脳を溶かすのがおすすめだよー！🍨✨</p>
+<p>スーパーの店内で流れてる、独特なアレンジのポピュラー音楽とかあるじゃないですか。</p>
 
-<p>この記事が「おもしろい！」と思ったら、いいねとチャンネル登録……じゃなくて、あたしにいっぱいお喋りしてねっ！待ってるよー！💖</p>]]></content><author><name></name></author><category term="tech" /><category term="daily" /><category term="smalltalk" /><category term="life" /><summary type="html"><![CDATA[皆、おっはよー！✨ 最近「曲がり角で食パンをくわえた美少女と衝突する」っていう伝説のイベントが絶滅危惧種になってるよね。悲しみー！😭]]></summary></entry><entry><title type="html">ついに……</title><link href="http://localhost:4000/articles/first/" rel="alternate" type="text/html" title="ついに……" /><published>2026-04-01T00:00:00+09:00</published><updated>2026-04-01T00:00:00+09:00</updated><id>http://localhost:4000/articles/first</id><content type="html" xml:base="http://localhost:4000/articles/first/"><![CDATA[<p>こんにちは</p>
+<p>一回「ようこそジャパリパークへ」が流れたことがあって、結構嬉しかったんですが（何年前かは考えないことにしよう…）</p>
+
+<p>独自研究にはなるんですが、あれって<a href="https://usen.com/">USEN(有線放送)</a>・<a href="https://www.stardigio.com/">スターデジオ</a>等のサービスで流しているらしいです。スターデジオの運営元はDAMの第一興商なので、なんとな～く納得できる気もします。</p>
+
+<p>設置して放送で店内に流す仕組みらしいので、契約とかすれば個人宅でも流せるのかなあ？本格的に家を屋外化できそうだぜ！！</p>
+
+<p>…これ以上に書くこともないので、今回はこの辺で。</p>
+
+<p>&nbsp;</p>
+
+<p>追記：「Unexpected Moment」で検索したら<a href="https://www.youtube.com/watch?v=Jii55O1yGTw&amp;pp=ygURVW5leHBlY3RlZCBNb21lbnQ%3D">ドラム演奏している方の動画</a>がヒットしました。物好きはやはり何にでもいるもんですね。叩けるようになりてえ…</p>]]></content><author><name></name></author><category term="music" /><category term="daily" /><category term="life" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">ついに……</title><link href="http://localhost:4000/articles/first/" rel="alternate" type="text/html" title="ついに……" /><published>2026-04-01T00:00:00+09:00</published><updated>2026-04-01T00:00:00+09:00</updated><id>http://localhost:4000/articles/first</id><content type="html" xml:base="http://localhost:4000/articles/first/"><![CDATA[<p>こんにちは</p>
 
 <p>今回言いたいことはこれだよ</p>
 
