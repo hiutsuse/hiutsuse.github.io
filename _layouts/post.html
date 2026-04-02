@@ -2,9 +2,15 @@
 layout: default
 ---
 <!-- ===== ヒーローイメージ ===== -->
+{% if page.hero_image %}
 <figure class="full-bleed" style="--hero-url: url({{ page.hero_image | relative_url }})">
   <img src="{{ page.hero_image | relative_url }}" alt="ヒーローイメージ" fetchpriority="high">
 </figure>
+{% else %}
+<figure class="full-bleed" style='--hero-url: url({{ "/assets/img/common/noimage_place.png" | relative_url }})'>
+  <img src='{{ "/assets/img/common/noimage_place.png" | relative_url }}' alt="noimage" fetchpriority="high">
+</figure>
+{% endif %}
 <!-- ===== 記事ヘッダー ===== -->
 <div class="container">
   <header>
