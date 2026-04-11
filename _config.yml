@@ -25,6 +25,26 @@ defaults:
     values:
       layout: "post"     # 自動で layout: post になる！
       show_toc: false      # デフォルトで目次を表示する設定に！
+  - scope:
+      path: "_news" # news コレクションの中だけ
+    values:
+      layout: "post"     # 自動で layout: post になる！
+      show_toc: false      # デフォルトで目次を表示する設定に！
+
+collections:
+  news:
+    output: true
+    permalink: /news/:title/
+
+plugins:
+  - jekyll-archives
+
+jekyll-archives:
+  enabled:
+    - tags
+  layout: 'tag_page'
+  permalinks:
+    tag: '/tags/:name/'
 
 # ビルドするときに無視してほしいファイル
 exclude:

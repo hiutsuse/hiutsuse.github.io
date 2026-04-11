@@ -8,7 +8,7 @@ layout: default
 </figure>
 {% else %}
 <figure class="full-bleed" style='--hero-url: url({{ "/assets/img/common/noimage_place.png" | relative_url }})'>
-  <img src='{{ "/assets/img/common/noimage_place.png" | relative_url }}' alt="noimage" fetchpriority="high">
+  <img src='{{ "/assets/img/common/news_place.png" | relative_url }}' alt="noimage" fetchpriority="high">
 </figure>
 {% endif %}
 <!-- ===== 記事ヘッダー ===== -->
@@ -22,10 +22,9 @@ layout: default
       <!-- タグ一覧 -->
       <ul class="tags">
         {% for tag_id in page.tags %}
-          {% assign tag_info = site.data.tags[tag_id] %}
+          {% assign tag_info = site.data.news_tags[tag_id] %}
           {% assign tag_name = tag_info.name %}
-          {% assign tag_category = tag_info.category %}
-          {% assign tag_color = site.data.category[tag_category] %}
+          {% assign tag_color = tag_info.color %}
           {% if tag_info %}
             <li style="color: {{ tag_color }};">
               {{ tag_name }}
