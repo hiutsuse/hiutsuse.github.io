@@ -45,7 +45,9 @@ jekyll-archives:
   layout: 'tag_page'
   permalinks:
     tag: '/tags/:name/'
-
+  scope:
+    type: [posts, news]
+    
 # ビルドするときに無視してほしいファイル
 exclude:
   - Gemfile
