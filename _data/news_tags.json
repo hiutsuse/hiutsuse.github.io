@@ -1,0 +1,13 @@
+{
+  "release": {"name": "リリース", "color": "#A5D4AD"},
+  "event": {"name": "イベント", "color": "#A3BCE2"},
+  "update": {"name": "アップデート", "color": "#FFF9B1"},
+  "maintenance": {"name": "メンテナンス", "color": "#C8C8C8"},
+  "apology": {"name": "お詫び", "color": "#F5B2B2"},
+  "announcement": {"name": "おしらせ", "color": "#A59ACA"},
+  "important": {"name": "重要", "color": "#F5B090"},
+  "other": {"name": "その他", "color": "#F4B4D0"},
+
+  "GAMETITLE": {"name": "ゲームの名前","color": "#FF0055"},
+  "SERVICETITLE": {"name": "サービスの名前","color": "#88FF00"}
+}
