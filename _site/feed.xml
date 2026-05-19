@@ -1,46 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-04-12T00:51:56+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">てつなぎの非現世愛慕</title><subtitle>ぱらそるによる、非現世への愛慕を綴るポータルサイト</subtitle><entry><title type="html">Jekyllの導入が思ったよりも大変だったこと</title><link href="http://localhost:4000/articles/second/" rel="alternate" type="text/html" title="Jekyllの導入が思ったよりも大変だったこと" /><published>2026-04-02T00:00:00+09:00</published><updated>2026-04-02T00:00:00+09:00</updated><id>http://localhost:4000/articles/second</id><content type="html" xml:base="http://localhost:4000/articles/second/"><![CDATA[<p>こんにちは</p>
-
-<p>この記事って、Jekyllを通して.mdファイルを一定の形式でHTMLにレンダリングしてるんですよね。</p>
-
-<p>いちいちタグとか挟む必要がないから、めっちゃくちゃ楽！！！</p>
-
-<p>…ただ、問題はそこではなく、そこまでの導入。</p>
-
-<p>だってさあ…</p>
-
-<p><span class="serif fsz" data-size="2rem"><strong>だ～れも、やってなかったんだもん！！！</strong></span></p>
-
-<p>…それは嘘かもしれないけど。リサーチ不足だったらごめん。</p>
-
-<section>
-
-  <h2 id="section">つまり何が言いたいか</h2>
-
-  <p>自分のポータルサイトとブログのシステムを自分で、というより<strong>自分好みに</strong>作れたのは嬉しい。</p>
-
-  <p>結果だけ見れば。</p>
-
-  <p>だけど、今時金を使わずにGitHub Pages + Jekyllでブログ構築する人なんているのか？？？　と。</p>
-
-  <p>ローカルにRuby+Jekyllインストールしたけど、デプロイだけしたいならいらないんだね。</p>
-
-  <p>ただ、今もやってるように、テストができるからそれはありがたいかも。</p>
-
-</section>
-
-<section>
-
-  <h2 id="section-1">けねん</h2>
-
-  <p>「静的サイトジェネレータ」って何度も言われてきたもんだから、怖じ気づいてたの。</p>
-
-  <p>よくよく調べたら、PythonとかPHPとかが動かないよ　ってだけなのね。</p>
-
-  <p><span class="inline-code"><code class="language-xml">&lt;span&gt;</code></span>タグをまたJSでレンダリングしてるから、ちょっとだけびっくりしたけどね</p>
-
-  <p>…今回はこの辺で。さあ、まだまだやることがあるぞお。</p>
-
-</section>]]></content><author><name></name></author><category term="tech" /><category term="daily" /><category term="development" /><summary type="html"><![CDATA[こんにちは]]></summary></entry><entry><title type="html">店内放送！！</title><link href="http://localhost:4000/articles/inside-the-store/" rel="alternate" type="text/html" title="店内放送！！" /><published>2026-04-02T00:00:00+09:00</published><updated>2026-04-02T00:00:00+09:00</updated><id>http://localhost:4000/articles/inside-the-store</id><content type="html" xml:base="http://localhost:4000/articles/inside-the-store/"><![CDATA[<iframe src="https://www.youtube.com/embed/lhkfZTArw28?list=PLysmIQi4ZWRcH_WvJWEGQOlosgMcbRxyQ" title="イオン・イオンスタイル直営売場で必ず1度は耳にする音楽" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-05-19T17:57:23+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">てつなぎの非現世愛慕</title><subtitle>ぱらそるによる、非現世への愛慕を綴るポータルサイト</subtitle><entry><title type="html">店内放送のあれこれ</title><link href="http://localhost:4000/articles/inside-the-store/" rel="alternate" type="text/html" title="店内放送のあれこれ" /><published>2026-04-02T00:00:00+09:00</published><updated>2026-04-02T00:00:00+09:00</updated><id>http://localhost:4000/articles/inside-the-store</id><content type="html" xml:base="http://localhost:4000/articles/inside-the-store/"><![CDATA[<iframe src="https://www.youtube.com/embed/lhkfZTArw28" title="イオン・イオンスタイル直営売場で必ず1度は耳にする音楽" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
 
 <p>突然ですが、これ聞いたことありますか？</p>
 
@@ -88,4 +46,241 @@
 
 <p> </p>
 
-<p>追記：「Unexpected Moment」で検索したら<a href="https://www.youtube.com/watch?v=Jii55O1yGTw&amp;pp=ygURVW5leHBlY3RlZCBNb21lbnQ%3D">ドラム演奏している方の動画</a>がヒットしました。物好きはやはり何にでもいるもんですね。叩けるようになりたい…</p>]]></content><author><name></name></author><category term="music" /><category term="daily" /><category term="life" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+<p>追記：「Unexpected Moment」で検索したら<a href="https://www.youtube.com/watch?v=Jii55O1yGTw&amp;pp=ygURVW5leHBlY3RlZCBNb21lbnQ%3D">ドラム演奏している方の動画</a>がヒットしました。物好きはやはり何にでもいるもんですね。叩けるようになりたい…</p>]]></content><author><name></name></author><category term="music" /><category term="daily" /><category term="life" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">仕様書</title><link href="http://localhost:4000/articles/specification/" rel="alternate" type="text/html" title="仕様書" /><published>2010-11-14T00:00:00+09:00</published><updated>2010-11-14T00:00:00+09:00</updated><id>http://localhost:4000/articles/specification</id><content type="html" xml:base="http://localhost:4000/articles/specification/"><![CDATA[<p>これはテストページです。</p>
+<p>ここに記述されたテキストは、何処のsectionにも属さないテキストです。</p>
+
+<section>
+  <h2>h2見出しのテストです</h2>
+  <p>これは段落のテストです。セクションのテストも兼ねています。</p>
+  <p>テストのために分量が必要ですが、思いつきません。助けてください！</p>
+</section>
+
+<section>
+  <h2>ヘッダー画像に関する注意</h2>
+  <p>CSSに渡す画像のURLは<strong>絶対パス</strong>にしてください。CSSファイルでは<span class="inline-code"><code>/template</code></span>をルートフォルダとして計算しています。</p>
+</section>
+
+<section>
+  <h2>言語の表示</h2>
+  <p>このテキストの翻訳には機械翻訳を使用しています。This text was translated using machine translation.</p>
+  <h3>日本語</h3>
+  <p class="indent">私がStable Diffusionを知ったのは2022年頃かな。その頃はローカルで動くAIってだけで大興奮していました。Stable Diffusion WebUIとAnything v4.0を使っていましたね～　その頃はまだ知識も浅く、思うような画像が生成できませんでしたが、密かにNSFW画像とかも作れて楽しかった思い出です。</p>
+  <h3>英語</h3>
+  <p class="indent">I think I first got into Stable Diffusion around 2022. Back then, just the idea of running an AI locally was enough to get me hyped. I was using Stable Diffusion WebUI and Anything v4.0. My prompts were pretty weak since I was a total noob, so I couldn't always get what I wanted, but man, being able to low-key brew some NSFW stuff was a blast.</p>
+  <h3>簡体中国語</h3>
+  <p class="indent sc">我大概是2022年左右开始接触 Stable Diffusion 的。那时候听说能在本地跑AI，简直整个人都燃起来了。当时一直在用 Stable Diffusion WebUI 和 Anything v4.0。虽然那时候还是个小白，没什么技术，半天也画不出想要的效果，但偷偷搓点 NSFW 图片真的挺爽的，全是回忆啊。</p>
+  <h3>台湾華語</h3>
+  <p class="indent tc">我大約是2022年那陣子開始摸 Stable Diffusion 的。那時光是想到能在自己電腦跑AI就超High的。我那時候是用 WebUI 跟 Anything v4.0。當時還是一隻菜雞，沒什麼技術，常弄不出想要的圖，不過偷偷生一些 NSFW 圖真的很有趣，現在想起來都是回憶。</p>
+  <h3>韓国語</h3>
+  <p class="indent kr">Stable Diffusion을 처음 알게 된 건 2022년쯤이었을 거예요. 그땐 로컬에서 AI가 돌아간다는 것만으로도 진짜 가슴이 웅장해졌죠. Stable Diffusion WebUI랑 Anything v4.0을 썼었는데, 당시엔 완전 뉴비라 지식이 얕아서 원하는 대로 짤이 잘 안 뽑히기도 했지만... 몰래 NSFW 짤 같은 거 만들면서 노는 게 개꿀잼이었던 기억이 나네요.</p>
+  <h3>フランス語</h3>
+  <p class="indent">J'ai découvert Stable Diffusion vers 2022, je crois. À l'époque, j'étais trop hypé juste par le fait de faire tourner une IA en local. J'utilisais Stable Diffusion WebUI et Anything v4.0. J'étais encore un peu un noob donc je galérais à sortir le rendu exact que je voulais, mais je m'amusais bien à créer des trucs NSFW en scred. C'est un super souvenir.</p>
+  <h3>ロシア語</h3>
+  <p class="indent">Кажется, я узнал о Stable Diffusion где-то в 2022 году. Тогда я был просто в диком восторге от того, что нейронка работает локально. Юзал WebUI и Anything v4.0. Знаний тогда было маловато, я был полным нубом, и картинки не всегда получались как надо, но втихаря пилить NSFW-контент было реально весело. Приятные воспоминания.</p>
+</section>
+
+<section>
+  <h2>テキスト・デコレーション</h2>
+  <p>表現の幅が広いと、テンション上がるよね。自分のプラットフォームって感じがビンビンするし。</p>
+  <p>以下は架空の事象についてのwikiです。</p>
+  <hr />
+  <h3>204エラーの消失</h3>
+  <p>204エラーの消失（英: Disappearance of HTTP 204）とは、2000年代初頭のインターネットコミュニティにおいて広まった都市伝説、および特定の条件下で発生するとされたブラウザの怪現象である。</p>
+  <h4>概要</h4>
+  <p>通常、HTTPステータスコード「204 No Content」は、リクエストが受理されたが返すべきコンテンツがないことを示す正常な応答である。しかし、204エラーの消失と呼ばれる現象においては、特定の古いブラウザ（Internet Explorer 5.5等）で204レスポンスを受け取った際、画面に<b>「存在しないはずの文字列」</b>や<b>「未知のドメインへのリンク」</b>が表示されると噂された。</p>
+  <p>2010年代以降、Web技術の標準化が進んだことでこの現象の報告は途絶えたが、一部のネット民の間では「ネットの裏側に繋がるゲートだった」と現在も語り継がれている。</p>
+  <h4>特徴</h4>
+  <p>本現象が発生したとされる際、以下の共通点が報告されている。</p>
+  <ul class="wide">
+    <li>
+      <strong>青い砂嵐</strong>ブラウザの背景が一時的に青色のノイズで埋め尽くされる。
+    </li>
+    <li>
+      <strong>逆再生の音声</strong>PCのスピーカーから、低ビットレートの音声が逆再生されたようなノイズが流れる。
+    </li>
+    <li>
+      <strong>無記名のチャットログ</strong>画面下部に、自分と誰かが会話しているようなテキストがリアルタイムで流れるが、入力は不可能である。
+    </li>
+  </ul>
+  <h4>主な目撃例</h4>
+  <ul class="wide">
+    <li>
+      <strong>「掲示板『あめぞう』での書き込み」 (2001年)</strong>深夜2時に特定のリンクを踏んだユーザーが、「真っ白な画面に『お帰りなさい』とだけ表示された」と報告。これが最古の記録とされている。
+    </li>
+    <li>
+      <strong>「Flash黄金期の隠しページ」 (2004年)</strong>個人制作のFlashサイトにおいて、存在しないはずのディレクトリを参照した際、204コードと共に「未来のニュース記事」が表示されたという噂が広まった。
+    </li>
+  </ul>
+  <h4>考察</h4>
+  <p>現代のネットワークエンジニアの多くは、この現象を「当時のプロキシサーバのバグ」または「ブラウザのキャッシュ汚染によるメモリリーク」が原因であると結論付けている。しかし、当時のログがほとんど現存していないことから、真相は闇の中である。</p>
+  <hr />
+  <p>ここからはボーナスゾーンだよ　たいした物も用意してないけどね</p>
+  <blockquote>
+    <p>根っこが腐っていては ジューシーフルーツは実らない</p>
+    <cite>永田智 オモコロチャンネルより</cite>
+  </blockquote>
+  <p>この作品の犯人は<span class="spoiler">どなたかわからへん</span>だ！！！</p>
+  <p>本件は、汎用OSのカーネ<span class="censor unknown">ル層にお</span>いて発生する、未知のプロセス（以下、<strong>「エンティティ-E」</strong>と呼称）によるシステム占有事象を扱うものである。エンティティ-Eは、従来のマルウェアや論理爆弾とは一線を画す挙動を示し、物理的な記憶媒体の容量を無視した<span class="censor solid">データ増殖</span>、および観測者に対する心理的干渉を引き起こす。</p>
+  <p>本エンティティが確認されたデバイスは、直ちに電源を遮断せず、<span class="censor deleted">電圧を $0.5$ V</span>ずつ段階的に下げる<span class="censor blur">「低電圧減衰法」</span>を用いて停止させなければならない。急激なシャットダウンは、周辺の電気回路を介した<span class="censor peke">「バックアップの転送」</span>を誘発し、電力網全体へ拡散する恐れがある。</p>
+  <p><strong>警告:</strong> 当該デバイスの画面を鏡越しに見てはならない。<span class="censor">鏡像の中のカーソル</span>は、あなたの操作に従わない可能性がある。</p>
+  <p><a href="#">リンク</a>をクリックすると、たぶん何もおこらないはずだよ</p>
+  <p><string>Markdown</string>から<u>HTML</u>に<i>レンダリング</i>するのはちょっと<s>めんどい</s>かもね</p>
+  <h4>記事中で使えるテーマカラーは以下の通り。尚、#から始めたカラーコードは例外として使用することができる。</h4>
+  <ul>
+    <li><span class="color" data-col="red">■ </span>red</li>
+    <li><span class="color" data-col="peach">■ </span>peach</li>
+    <li><span class="color" data-col="cream">■ </span>cream</li>
+    <li><span class="color" data-col="pale-yellow">■ </span>pale-yellow</li>
+    <li><span class="color" data-col="light-green">■ </span>light-green</li>
+    <li><span class="color" data-col="green">■ </span>green</li>
+    <li><span class="color" data-col="rose">■ </span>rose</li>
+    <li><span class="color" data-col="teal">■ </span>teal</li>
+    <li><span class="color" data-col="lavender">■ </span>lavender</li>
+    <li><span class="color" data-col="purple">■ </span>purple</li>
+    <li><span class="color" data-col="light-blue">■ </span>light-blue</li>
+    <li><span class="color" data-col="sky-blue">■ </span>sky-blue</li>
+  </ul>
+  <p>ここで重要になってくるのが<span class="highlight" data-highcol="peach">AAABBBCCCDDDを基軸とするEEE</span>的な考え方です。</p>
+  <p><span class="area">𒀱 𒈓 𒈙 ꙳ ꙳ ꙳ 𒈓 𒀱</span>という固定化された思想は、もはや意味をなさない。</p>
+  <p><span class="area">この番組では皆のリクエストをお待ちしています</span></p>
+  <div class="area col-text"><p>責任をおってくださああああい！！！</p></div>
+  <h3>インデントっ</h3>
+  <div class="indent">
+    <p>一回目のインデント一回目のインデント一回目のインデント一回目のインデント一回目のインデント一回目のインデント</p>
+    <p>一回目のインデント一回目のインデント一回目のインデント一回目のインデント一回目のインデント一回目のインデント</p>
+    <div class="indent">
+      <p>二回目のインデント二回目のインデント二回目のインデント二回目のインデント二回目のインデント二回目のインデント二回目のインデント</p>
+      <p>二回目のインデント二回目のインデント二回目のインデント二回目のインデント二回目のインデント二回目のインデント二回目のインデント</p>
+    </div>
+  </div>
+  <p><ruby>晦渋<rp> (</rp><rt>かいじゅう</rt><rp>) </rp></ruby>な<ruby>古書<rp> (</rp><rt>こしょ</rt><rp>) </rp></ruby>を<ruby>紐解<rp> (</rp><rt>ひもと</rt><rp>) </rp></ruby>けば、<ruby>盈虚<rp> (</rp><rt>えいきょ</rt><rp>) </rp></ruby>の<ruby>理<rp> (</rp><rt>こと わり</rt><rp>) </rp></ruby>が<ruby>綴<rp> (</rp><rt>つづ</rt><rp>) </rp></ruby>られ、<ruby>轗軻<rp> (</rp><rt>かんか</rt><rp>) </rp></ruby>たる<ruby>人生<rp> (</rp><rt>じんせい</rt><rp>) </rp></ruby>の<ruby>隘路<rp> (</rp><rt>あいろ</rt><rp>) </rp></ruby>を<ruby>照<rp> (</rp><rt>て</rt><rp>) </rp></ruby>らし<ruby>出<rp> (</rp><rt>だ</rt><rp>) </rp></ruby>す。<ruby>炯眼<rp> (</rp><rt>けいがん</rt><rp>) </rp></ruby>なる<ruby>賢者<rp> (</rp><rt>けんじゃ</rt><rp>) </rp></ruby>は、<ruby>鸚鵡<rp> (</rp><rt>おうむ</rt><rp>) </rp></ruby>の<ruby>囀<rp> (</rp><rt>さえず</rt><rp>) </rp></ruby>りに<ruby>玩味<rp> (</rp><rt>がんみ</rt><rp>) </rp></ruby>すべき<ruby>真髄<rp> (</rp><rt>しんずい</rt><rp>) </rp></ruby>を<ruby>見出<rp> (</rp><rt>みいだ</rt><rp>) </rp></ruby>し、<ruby>姑息<rp> (</rp><rt>こそく</rt><rp>) </rp></ruby>な<ruby>手段<rp> (</rp><rt>しゅだん</rt><rp>) </rp></ruby>を<ruby>排<rp> (</rp><rt>はい</rt><rp>) </rp></ruby>して<ruby>魁偉<rp> (</rp><rt>かいい</rt><rp>) </rp></ruby>な<ruby>風貌<rp> (</rp><rt>ふうぼう</rt><rp>) </rp></ruby>を<ruby>保<rp> (</rp><rt>たも</rt><rp>) </rp></ruby>つ。<ruby>甍<rp> (</rp><rt>いらか</rt><rp>) </rp></ruby>に<ruby>降<rp> (</rp><rt>ふ</rt><rp>) </rp></ruby>る<ruby>雨<rp> (</rp><rt>あめ</rt><rp>) </rp></ruby>が<ruby>磊落<rp> (</rp><rt>らいらく</rt><rp>) </rp></ruby>な<ruby>音<rp> (</rp><rt>おと</rt><rp>) </rp></ruby>を<ruby>立<rp> (</rp><rt>た</rt><rp>) </rp></ruby>てる<ruby>中<rp> (</rp><rt>なか</rt><rp>) </rp></ruby>、<ruby>悄然<rp> (</rp><rt>しょうぜん</rt><rp>) </rp></ruby>と<ruby>佇<rp> (</rp><rt>たたず</rt><rp>) </rp></ruby>む<ruby>影<rp> (</rp><rt>かげ</rt><rp>) </rp></ruby>は、<ruby>慚愧<rp> (</rp><rt>ざんき</rt><rp>) </rp></ruby>の<ruby>念<rp> (</rp><rt>ねん</rt><rp>) </rp></ruby>に<ruby>駆<rp> (</rp><rt>か</rt><rp>) </rp></ruby>られつつも、<ruby>桎梏<rp> (</rp><rt>しっこく</rt><rp>) </rp></ruby>を<ruby>断<rp> (</rp><rt>た</rt><rp>) </rp></ruby>ち<ruby>切<rp> (</rp><rt>き</rt><rp>) </rp></ruby>るべく<ruby>昂然<rp> (</rp><rt>こうぜん</rt><rp>) </rp></ruby>と<ruby>顔<rp> (</rp><rt>かお</rt><rp>) </rp></ruby>を<ruby>上<rp> (</rp><rt>あ</rt><rp>) </rp></ruby>げ、<ruby>爛漫<rp> (</rp><rt>らんまん</rt><rp>) </rp></ruby>たる<ruby>未来<rp> (</rp><rt>みらい</rt><rp>) </rp></ruby>へと<ruby>邁進<rp> (</rp><rt>まいしん</rt><rp>) </rp></ruby>するのであった。</p>
+  <p class="serif"><ruby>星脈霊樹<rp> (</rp><rt>イグドラシル</rt><rp>) </rp></ruby>の梢から降り注ぐ<ruby>万象霊素<rp> (</rp><rt>エテリカ</rt><rp>) </rp></ruby>が、<ruby>玻璃水都<rp> (</rp><rt>レムリアス</rt><rp>) </rp></ruby>の湖面を青白く照らしていた。静寂を破ったのは、<ruby>天涯終焉<rp> (</rp><rt>アスフェル</rt><rp>) </rp></ruby>から帰還したばかりの<ruby>御稜威 熾<rp> (</rp><rt>ミイツ・シズカ</rt><rp>) </rp></ruby>が放つ、鋭い殺気。彼は腰の太刀を引き抜くと、眼前に現れた刺客に対し、時間さえも凍てつかせる禁忌の呪歌、<ruby>永劫ナル旋 律<rp> (</rp><rt>エターナル・カノン</rt><rp>) </rp></ruby>を静かに唱え始めたのだ。</p>
+  <h4>フォントテスト</h4>
+  <ul>
+    <li>
+      <strong>ZEN 角ゴシック New</strong>
+      御託を並べたいけど、思いつかない
+    </li>
+    <li class="decol">
+      <strong>解星デコール</strong>
+      おーっほっほっほ！わたくしの歩む道こそが、皆様の指標となりますのよ。
+    </li>
+    <li class="serif">
+      <strong>ZEN アンチック</strong>
+      静寂が、降り積もる。――ここにはもう、誰もいない。
+    </li>
+    <li class="monospc">
+      <strong>M PLUS 1 Code</strong>
+      [SYSTEM_INIT] &gt;&gt; CONNECTION ESTABLISHED. ALL SYSTEMS ONLINE._
+    </li>
+    <li class="sc">
+      <strong>Noto Sans SC</strong>
+      极影 ⚡️ X1 Pro 无线耳机
+    </li>
+    <li class="tc">
+      <strong>Noto Sans TC</strong>
+      劍身流淌著遠古星辰的光輝，唯有被選中的勇者方能與其共鳴。
+    </li>
+    <li class="kr">
+      <strong>Noto Sans KR</strong>
+      우와아! 반짝거리는 건 다 내 거야! 삐빅! 🤖
+    </li>
+  </ul>
+  <div class="two-col serif eva centering">
+    <div class="col-text fsz" data-size="1.5rem" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+      <p style="letter-spacing: 1rem;">次回予告</p>
+    </div>
+    <div class="col-text color" data-col="#fff" style="background-color: black;">
+      <p>終局。それは始まりのあとに、必ずおとずれる。私たちの願いは、破滅へと連なるのか。</p>
+      <p>私たちの希望は、死そのものなのか。</p>
+      <p>最終話「世界の中心でアイを叫んだけもの」</p>
+    </div>
+  </div>
+  <p>コードスニペットを表示する場合、<span class="inline-code"><code>&lt;pre&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;</code></span>が必要で、HTMLエスケープ文字も使ってください。</p>
+  <p>インラインコードスニペットとして表示させる場合、<span class="inline-code"><code>&lt;span class=&quot;inline-code&quot;&gt;&lt;code&gt;&lt;/code&gt;&lt;/span&gt;</code></span>に変更してください。</p>
+  <div class="code-block" data-lang="C" data-copy="true">
+    <!-- <div class="code-header">
+      <div class="lang">Python</div>
+      <div class="copy"><i class="bi bi-copy"></i></div>
+    </div> -->
+    <pre><code>
+      #include &lt;stdio.h&gt;
+
+      int main(void) {
+          int a, b, sum;
+
+          printf(&quot;2つの整数を入力してください: &quot;);
+          // scanfで入力を受け取る（&amp;aはaのアドレスを指す）
+          scanf(&quot;%d %d&quot;, &amp;a, &amp;b);
+
+          sum = a + b;
+          printf(&quot;合計は %d です。\n&quot;, sum);
+
+          return 0;
+      }
+    </code></pre>
+  </div>
+</section>
+
+<section>
+  <h2>画像表示のテスト</h2>
+  <img src="img/hamburger.jpg" alt="おいしいはんばあがあのがぞうだよ" />
+  <img src="img/ruin_mansion.jpg" alt="わびしいはいきょのがぞうだよ" />
+</section>
+<section>
+  <h2>レイアウト変更のテスト</h2>
+  <div class="two-col">
+    <div class="callout">
+      <p class="callout-title">レイアウト</p>
+      <p>ツーカラムレイアウトって、以外と実装が楽になってるんですね！</p>
+    </div>
+    <div class="callout warn">
+      <p class="callout-title">危険性</p>
+      <p>んなもんねえべやさ！！！！</p>
+    </div>
+  </div>
+  <div class="two-col">
+    <img src="img/image.png" alt="" />
+    <div class="col-text">
+      <p class="col-title">生成画像</p>
+      <p>メタデータは、思ったよりも参考になることがあります。</p>
+      <p>ピクセルアート風は、正方形のピクセレート構造を手動で組む必要があります。</p>
+      <p>生成画像→アップスケーラーで1/8ダウンスケール→元の解像度に戻す→画像を保存</p>
+    </div>
+  </div>
+  <div class="three-col">
+    <div class="callout">
+      <p class="callout-title">スリーカラム</p>
+      <p>スリーカラムまでやるんですか！？</p>
+      <p>もちろんやりますわよ</p>
+    </div>
+    <div class="callout info">
+      <p class="callout-title">インフォ</p>
+      <p>インフォコールアウトは、情報を伝えるためのものです。</p>
+    </div>
+    <div class="callout hint">
+      <p class="callout-title">ヒント</p>
+      <p>ヒントを示すためのコールアウト</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>特殊divのテスト</h2>
+  <div class="callout">
+    <p class="callout-title">未設定</p>
+    <p>特殊効果が設定されていないコールアウト</p>
+  </div>
+  <div class="callout warn">
+    <p class="callout-title">警告</p>
+    <p>危機感をあおるようなコールアウト</p>
+  </div>
+  <div class="callout info">
+    <p class="callout-title">情報</p>
+    <p>情報を伝えるためのコールアウト</p>
+  </div>
+  <div class="callout hint">
+    <p class="callout-title">ヒント</p>
+    <p>ヒントを示すためのコールアウト</p>
+  </div>
+</section>]]></content><author><name></name></author><category term="music" /><category term="compose" /><category term="audio" /><category term="dtm" /><category term="daw" /><category term="sound" /><category term="creation" /><category term="production" /><category term="idea" /><category term="design" /><category term="made" /><category term="expression" /><category term="professional" /><category term="illustration" /><category term="game" /><category term="retro_game" /><category term="strategy" /><category term="game_env" /><category term="daily" /><category term="status" /><category term="life" /><category term="today" /><category term="sudden" /><category term="worry" /><category term="smalltalk" /><category term="memories" /><category term="notes" /><category term="casual" /><category term="talk" /><category term="impression" /><category term="review" /><category term="analysis" /><category term="commentary" /><category term="pc" /><category term="software" /><category term="trouble" /><category term="tech" /><category term="web" /><category term="internet" /><category term="notice" /><category term="promotion" /><category term="announcement" /><category term="policy" /><category term="behind_the_scenes" /><category term="update" /><category term="development" /><category term="test" /><category term="memo" /><category term="trial" /><category term="nonsense" /><category term="anime" /><category term="manga" /><category term="movie" /><category term="video" /><category term="hobby" /><category term="other" /><category term="underground" /><category term="NSFW" /><category term="VDA" /><category term="sensitive" /><category term="r18" /><category term="abyss" /><summary type="html"><![CDATA[これはテストページです。 ここに記述されたテキストは、何処のsectionにも属さないテキストです。]]></summary></entry></feed>

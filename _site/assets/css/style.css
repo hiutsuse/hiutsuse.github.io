@@ -570,6 +570,7 @@ body > footer{
 
 .meta-info ul{
   display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
   gap: .5rem;
   a{
@@ -850,10 +851,11 @@ main{
   }
   
   .area{
-    background-color: #c1c1c1;
-    border: #666 dashed 1px;
+    background-color: #f8f8f8;
+    border: #e0e0e0 solid 1px;
     padding: .5rem 1rem;
     margin: 0 .5rem;
+    border-radius: .2rem;
   }
 
   .indent{
@@ -950,7 +952,10 @@ main{
   .col-text{
     margin-bottom: var(--main-cont-margin);
     p{
-      margin-bottom: .5rem;
+      margin-bottom: 0;
+    }
+    p + p{
+      margin-top: .5rem;
     }
     .col-title{
       margin-bottom: 0;
