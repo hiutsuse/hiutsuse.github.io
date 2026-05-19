@@ -2,104 +2,79 @@
   <div class="latest">
     <div class="box-header">
       <p class="box-title">最新記事</p>
-      <a href="" class="more">もっと見る</a>
+      <a href="{{ '/articles-catalog' | relative_url }}" class="more">もっと見る</a>
     </div>
     <div class="box-wrapper">
       <button class="scr-btn" data-dir="left">❮</button>
       <button class="scr-btn" data-dir="right">❯</button>
       <div class="boxes">
-        <div class="box">
-          <a href="">
-            <div class="article-card">
-              <img src="{{ '/assets/img/common/noimage_place.png' | relative_url }}" alt="記事サムネイル">
-              <p>記事タイトル</p>
-            </div>
-          </a>
-        </div>
-        <div class="box">
-          <a href="">
-            <div class="article-card">
-              <img src="{{ '/assets/img/common/noimage_place.png' | relative_url }}" alt="記事サムネイル">
-              <p>記事タイトル</p>
-            </div>
-          </a>
-        </div>
-        <div class="box">
-          <a href="">
-            <div class="article-card">
-              <img src="{{ '/assets/img/common/noimage_place.png' | relative_url }}" alt="記事サムネイル">
-              <p>記事タイトル</p>
-            </div>
-          </a>
-        </div>
-        <div class="box">
-          <a href="">
-            <div class="article-card">
-              <img src="{{ '/assets/img/common/noimage_place.png' | relative_url }}" alt="記事サムネイル">
-              <p>記事タイトル</p>
-            </div>
-          </a>
-        </div>
-        <div class="box">
-          <a href="">
-            <div class="article-card">
-              <img src="{{ '/assets/img/common/noimage_place.png' | relative_url }}" alt="記事サムネイル">
-              <p>記事タイトル</p>
-            </div>
-          </a>
-        </div>
+        {% for post in site.posts limit:5 %}
+          <div class="box">
+            <a href="{{ post.url }}">
+              <div class="article-card">
+                {% if post.hero_image %}
+                  <img src="{{ post.hero_image | relative_url }}" alt="記事サムネイル">
+                {% else %}
+                  <img src="{{ '/assets/img/common/noimage_place.png' | relative_url }}" alt="記事サムネイル">
+                {% endif %}
+                <p>{{ post.title }}</p>
+              </div>
+            </a>
+          </div>
+        {% endfor %}
       </div>
     </div>
   </div>
-  <div class="recommended">
+  <div class="latestN">
     <div class="box-header">
-      <p class="box-title">おすすめ記事</p>
-      <a href="" class="more">もっと見る</a>
+      <p class="box-title">最新のお知らせ</p>
+      <a href="{{ '/news' | relative_url }}" class="more">もっと見る</a>
     </div>
     <div class="box-wrapper">
       <button class="scr-btn" data-dir="left">❮</button>
       <button class="scr-btn" data-dir="right">❯</button>
       <div class="boxes">
-        <div class="box">
-          <a href="">
-            <div class="article-card">
-              <img src="{{ '/assets/img/common/noimage_place.png' | relative_url }}" alt="記事サムネイル">
-              <p>記事タイトル</p>
-            </div>
-          </a>
-        </div>
-        <div class="box">
-          <a href="">
-            <div class="article-card">
-              <img src="{{ '/assets/img/common/noimage_place.png' | relative_url }}" alt="記事サムネイル">
-              <p>記事タイトル</p>
-            </div>
-          </a>
-        </div>
-        <div class="box">
-          <a href="">
-            <div class="article-card">
-              <img src="{{ '/assets/img/common/noimage_place.png' | relative_url }}" alt="記事サムネイル">
-              <p>記事タイトル</p>
-            </div>
-          </a>
-        </div>
-        <div class="box">
-          <a href="">
-            <div class="article-card">
-              <img src="{{ '/assets/img/common/noimage_place.png' | relative_url }}" alt="記事サムネイル">
-              <p>記事タイトル</p>
-            </div>
-          </a>
-        </div>
-        <div class="box">
-          <a href="">
-            <div class="article-card">
-              <img src="{{ '/assets/img/common/noimage_place.png' | relative_url }}" alt="記事サムネイル">
-              <p>記事タイトル</p>
-            </div>
-          </a>
-        </div>
+        {% for news in site.news limit:5 %}
+          <div class="box">
+            <a href="{{ news.url }}">
+              <div class="article-card">
+                {% if news.hero_image %}
+                  <img src="{{ news.hero_image | relative_url }}" alt="記事サムネイル">
+                {% else %}
+                  <img src="{{ '/assets/img/common/news_place.png' | relative_url }}" alt="記事サムネイル">
+                {% endif %}
+                <p>{{ news.title }}</p>
+              </div>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="pickup">
+    <div class="box-header">
+      <p class="box-title">おすすめ記事</p>
+      <a href="{{ '/pickup' | relative_url }}" class="more">もっと見る</a>
+    </div>
+    <div class="box-wrapper">
+      <button class="scr-btn" data-dir="left">❮</button>
+      <button class="scr-btn" data-dir="right">❯</button>
+      <div class="boxes">
+        {% assign pickup_articles = site.posts | where: "pickup", true %}
+        {% for post in pickup_articles limit:5 %}
+          <div class="box">
+            <a href="{{ post.url }}">
+              <div class="article-card">
+                {% if post.hero_image %}
+                  <img src="{{ post.hero_image | relative_url }}" alt="記事サムネイル">
+                {% else %}
+                  <img src="{{ '/assets/img/common/noimage_place.png' | relative_url }}" alt="記事サムネイル">
+                {% endif %}
+                <p>{{ post.title }}</p>
+              </div>
+            </a>
+          </div>
+        {% endfor %}
       </div>
     </div>
   </div>
