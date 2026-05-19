@@ -1,0 +1,28 @@
+---
+title: "記事一覧"
+layout: default
+prohibit_footer: true
+---
+
+<link rel="stylesheet" href="{{ '/assets/css/articles_list.css' | relative_url }}">
+<div class="container">
+  <h1>記事一覧</h1>
+  <ul class="articles-list">
+    {% for post in site.posts %}
+      <li class="articles-list-item">
+        <a href="{{ post.url }}">
+          <div class="article-list-item-card">
+            {% if post.hero_image %}
+              <img src="{{ post.hero_image | relative_url }}" alt="記事サムネイル" class="thumbnail">
+            {% else %}
+              <img src="{{ '/assets/img/common/noimage_place.png' | relative_url }}" alt="記事サムネイル" class="thumbnail">
+            {% endif %}
+            <div class="item-meta">
+              <p>{{ post.title }}</p>
+              <time>{{ post.date | date: "%Y年%m月%d日" }}</time>
+            </div>
+          </div>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
