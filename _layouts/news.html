@@ -26,8 +26,8 @@ layout: default
           {% assign tag_name = tag_info.name %}
           {% assign tag_color = tag_info.color %}
           {% if tag_info %}
-            <li style="color: {{ tag_color }};">
-              {{ tag_name }}
+            <li>
+              <a href='{{ "/tags/" | relative_url }}{{ tag_id }}' style="color: {{ tag_color }};">{{ tag_name }}</a>
             </li>
           {% else %}
             <li>{{ tag_id }}</li> {% endif %}

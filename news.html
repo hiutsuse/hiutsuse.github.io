@@ -1,0 +1,28 @@
+---
+title: "お知らせ"
+layout: default
+prohibit_footer: true
+---
+
+<link rel="stylesheet" href="{{ '/assets/css/articles_list.css' | relative_url }}">
+<div class="container">
+  <h1>お知らせ一覧</h1>
+  <ul class="articles-list">
+    {% for news in site.news %}
+      <li class="articles-list-item">
+        <a href="{{ news.url }}">
+          <div class="article-list-item-card">
+            {% if news.hero_image %}
+              <img src="{{ news.hero_image | relative_url }}" alt="記事サムネイル" class="thumbnail">
+            {% else %}
+              <img src="{{ '/assets/img/common/noimage_place.png' | relative_url }}" alt="記事サムネイル" class="thumbnail">
+            {% endif %}
+            <div class="item-meta">
+              <p>{{ news.title }}</p>
+              <time>{{ news.date | date: "%Y年%m月%d日" }}</time>
+            </div>
+          </div>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>

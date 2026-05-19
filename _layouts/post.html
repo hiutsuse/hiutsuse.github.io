@@ -27,8 +27,8 @@ layout: default
           {% assign tag_category = tag_info.category %}
           {% assign tag_color = site.data.category[tag_category] %}
           {% if tag_info %}
-            <li style="color: {{ tag_color }};">
-              {{ tag_name }}
+            <li>
+              <a href='{{ "/tags/" | relative_url }}{{ tag_id }}' style="color: {{ tag_color }};">{{ tag_name }}</a>
             </li>
           {% else %}
             <li>{{ tag_id }}</li> {% endif %}

@@ -4,7 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  <title>{{ page.title }}　|　てつなぎの非現世愛慕</title>
+  <title>
+    {% assign tag_info = site.data.tags[page.title] %}
+    {% unless tag_info %}
+      {% assign tag_info = site.data.news_tags[page.title] %}
+    {% endunless %}
+    {% assign tag_name = tag_info.name %}
+
+    {% if page.type == 'tag' %}
+      「{{ tag_name }}」の記事一覧　|　{{ site.title }}
+    {% else %}
+      {{ page.title }}　|　{{ site.title }}
+    {% endif %}
+  </title>
   <!-- Thanks to Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,26 +32,29 @@
     <!-- post -->
       {{ content }}
 
-      <footer>
-        <p>最後までお読みいただきありがとうございました！</p>
-        <p>ご意見・ご感想はぜひ はてなブックマーク へお願いします。</p>
-        <div class="spread-links">
-          <div class="hatena">
-            <a href="#" target="_blank" rel="nofollow noopener" id="share-hatena" title="はてなブックマークに投稿" alt="はてなブックマークのアイコン"><img src="{{ '/assets/img/common/hatena-bookmark-icon.svg' | relative_url }}" width="16px"></a>
+      
+      {% unless layout.prohibit_footer or page.prohibit_footer %}
+        <footer>
+          <p>最後までお読みいただきありがとうございました！</p>
+          <p>ご意見・ご感想はぜひ はてなブックマーク へお願いします。</p>
+          <div class="spread-links">
+            <div class="hatena">
+              <a href="#" target="_blank" rel="nofollow noopener" id="share-hatena" title="はてなブックマークに投稿" alt="はてなブックマークのアイコン"><img src="{{ '/assets/img/common/hatena-bookmark-icon.svg' | relative_url }}" width="16px"></a>
+            </div>
+            <div class="x">
+              <a href="#" target="_blank" rel="nofollow noopener" id="share-x" title="Xでシェア"><i class="bi bi-twitter-x"></i></a>
+            </div>
+            <div class="line">
+              <a href="#" target="_blank" rel="nofollow noopener" id="share-line" title="LINEで共有"><i class="bi bi-line"></i></a>
+            </div>
           </div>
-          <div class="x">
-            <a href="#" target="_blank" rel="nofollow noopener" id="share-x" title="Xでシェア"><i class="bi bi-twitter-x"></i></a>
+          <div class="author-card">
+            <p class="name">ぱらそる</p>
+            <p class="desc">プログラミング・ゲーム・デザイン・AI・PC・インターネットをこよなく愛する。愛してるだけ。</p>
+            <p class="more">詳細は<a href="">自己紹介ページ</a></p>
           </div>
-          <div class="line">
-            <a href="#" target="_blank" rel="nofollow noopener" id="share-line" title="LINEで共有"><i class="bi bi-line"></i></a>
-          </div>
-        </div>
-        <div class="author-card">
-          <p class="name">ぱらそる</p>
-          <p class="desc">プログラミング・ゲーム・デザイン・AI・PC・インターネットをこよなく愛する。愛してるだけ。</p>
-          <p class="more">詳細は<a href="">自己紹介ページ</a></p>
-        </div>
-      </footer>
+        </footer>
+      {% endunless %}
     </div>
 
     <!-- other-articles -->

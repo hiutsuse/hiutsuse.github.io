@@ -140,7 +140,7 @@
   });
 
   // スクロールさせる
-  document.querySelectorAll('.latest, .recommended, .most-popular').forEach(section => {
+  document.querySelectorAll('.latest, .latestN, .pickup, .most-popular').forEach(section => {
     const scrollArea = section.querySelector('.boxes');
     const btns       = section.querySelectorAll('.scr-btn');
 
@@ -174,5 +174,20 @@
     updateElements(); // 初期状態
   });
 
-  
+  // 画像ロード遅延
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const img = entry.target;
+        img.src = img.dataset.src;
+        observer.unobserve(img);
+      }
+    });
+  }, { rootMargin: '100px' });
+
+  document.querySelectorAll('.container img').forEach(img => {
+    img.dataset.src = img.src;
+    img.removeAttribute('src');
+    observer.observe(img);
+  });
 }
