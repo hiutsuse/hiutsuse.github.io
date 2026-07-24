@@ -44,7 +44,7 @@
   "web": {"name": "Web", "category": "TECH"},
   "internet": {"name": "インターネット", "category": "TECH"},
 
-  "notice": {"name": "お知らせ", "category": "OPERATE"},
+  "notice": {"name": "おしらせ", "category": "OPERATE"},
   "promotion": {"name": "宣伝", "category": "OPERATE"},
   "announcement": {"name": "告知", "category": "OPERATE"},
   "policy": {"name": "方針", "category": "OPERATE"},
