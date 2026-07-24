@@ -22,28 +22,28 @@ layout: default
       <!-- タグ一覧 -->
       <ul class="tags">
         {% for tag_id in page.tags %}
-          {% assign tag_info = site.data.news_tags[tag_id] %}
-          {% assign tag_name = tag_info.name %}
-          {% assign tag_color = tag_info.color %}
-          {% if tag_info %}
-            <li>
-              <a href='{{ "/tags/" | relative_url }}{{ tag_id }}' style="color: {{ tag_color }};">{{ tag_name }}</a>
-            </li>
-          {% else %}
-            <li>{{ tag_id }}</li> {% endif %}
+        {% assign tag_info = site.data.news_tags[tag_id] %}
+        {% assign tag_name = tag_info.name %}
+        {% assign tag_color = tag_info.color %}
+        {% if tag_info %}
+        <li>
+          <a href='{{ "/tags/" | relative_url }}{{ tag_id }}' style="color: {{ tag_color }};">{{ tag_name }}</a>
+        </li>
+        {% else %}
+        <li>{{ tag_id }}</li> {% endif %}
         {% endfor %}
       </ul>
     </div>
   </header>
   <!-- ===== ナビゲーション(目次とか人物・背景とか適宜変更しようね) ===== -->
   {% if page.toc %}
-    <nav>
-      <div class="toc">
-        <p>目次</p>
-        <ol>
-        </ol>
-      </div>
-    </nav>
+  <nav>
+    <div class="toc">
+      <p>目次</p>
+      <ol>
+      </ol>
+    </div>
+  </nav>
   {% endif %}
   <!-- ===== 本文 ===== -->
   <article>

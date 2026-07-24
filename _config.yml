@@ -24,17 +24,26 @@ defaults:
       path: "_posts" # 記事フォルダの中だけ
     values:
       layout: "post"     # 自動で layout: post になる！
-      show_toc: false      # デフォルトで目次を表示する設定に！
+      toc: false
   - scope:
       path: "_news" # news コレクションの中だけ
     values:
       layout: "post"     # 自動で layout: post になる！
-      show_toc: false      # デフォルトで目次を表示する設定に！
+      toc: false
+  - scope:
+      path: "_subpages" # subpages コレクションの中だけ
+      type: "subpages"
+    values:
+      layout: "subpages"     # 自動で layout: post になる！
+      toc: false
+      permalink: /:title/ 
 
 collections:
   news:
     output: true
     permalink: /news/:title/
+  subpages:
+    output: true
 
 plugins:
   - jekyll-archives
