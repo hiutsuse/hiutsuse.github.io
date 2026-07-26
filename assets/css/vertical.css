@@ -723,11 +723,9 @@ main{
   }
 
   ul{
-    margin-block-start: var(--main-cont-margin);
     margin-block-end: var(--main-cont-margin);
   }
   .wide li{
-    margin-block-start: var(--main-cont-margin);
     margin-block-end: var(--main-cont-margin);
   }
   .wide li > strong{
@@ -752,12 +750,19 @@ main{
     margin-block-end: .5rem;
   }
 
-  img{
-    max-width: 100%;
+  .img-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-block: .5rem;
-    padding-inline-start: 5rem;
-    padding-inline-end: calc(5rem - var(--section-right-padding));
-    margin: auto;
+    padding-inline: 5rem;
+  }
+
+  img{
+    width: 100%;
+    &:hover{
+      cursor: zoom-in;
+    }
   }
 
   hr{
@@ -939,22 +944,33 @@ main{
     }
   }
 
+  .video-wrapper{
+    aspect-ratio: 16 / 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   iframe{
-    min-width: 100%;
-    aspect-ratio: 16 / 7.57;
-    padding-block: .5rem;
-    padding-inline-start: 5rem;
-    padding-inline-end: calc(5rem - var(--section-right-padding));
-    margin: auto;
+    width: 100%;
+    height: 100%;
+    display: block;
   }
 
+  .table-wrapper{
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
   table{
     font-size: .8rem;
     margin: auto;
     border-spacing: 1rem .5rem;
     margin-block-start: var(--main-cont-margin);
     margin-block-end: var(--main-cont-margin);
-    overflow-x: auto;
+    min-width: 100%;
+  }
+  td, th{
+    text-wrap-mode: nowrap;
   }
 
   .two-col{
@@ -1051,10 +1067,10 @@ section{
 }
 
 
-.indent:not(.indent .indent), .code-block, blockquote, .container > *:not(header, nav) img, .container > *:not(header, nav) iframe{
+.indent:not(.indent .indent), .code-block, blockquote, .img-wrapper, .container > *:not(header, nav) .video-wrapper{
   margin-block-end: var(--main-cont-margin);
 }
-.code-block, blockquote, .container > *:not(header, nav) img{
+.code-block, blockquote, .img-wrapper{
   margin-block-start: var(--main-cont-margin);
 }
 
@@ -1095,14 +1111,18 @@ section{
     margin-block-start: var(--main-cont-margin);
     margin-block-end: var(--main-cont-margin);
   }
-  .quick-access{
+  body > footer .quick-access{
     flex-direction: column;
     align-items: center;
   }
-  .quick-access .list:not(.about){
+  body > footer .quick-access .list:not(.about){
     width: 15rem;
   }
-  .quick-access .list p:not(.about p) {
-    width: 100% !important;
+  body > footer .quick-access .list p:not(.about p) {
+    width: 100%;
+  }
+  .container > *:not(header, nav) .img-wrapper{
+    padding-block: 0;
+    padding-inline: 0;
   }
 }
