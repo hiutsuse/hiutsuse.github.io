@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+body{
+  overflow: hidden;
+}
+
+#safetyGuard{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 3000;
+  background-color: var(--header-bg-thick);
+  background-image: linear-gradient(45deg,
+      var(--header-bg-thin) 25%, var(--header-bg-thin) 25%,
+      transparent 25%, transparent 100%),
+    linear-gradient(-135deg,
+      var(--header-bg-thin) 25%, var(--header-bg-thin) 25%,
+      transparent 25%, transparent 100%),
+    linear-gradient(-135deg,
+      var(--header-bg-thick) 25%, var(--header-bg-thick) 25%,
+      transparent 25%, transparent 100%),
+    linear-gradient(45deg,
+      var(--header-bg-thick) 25%, var(--header-bg-thick) 25%,
+      transparent 25%, transparent 100%),
+    linear-gradient(45deg,
+      var(--header-bg-thin) 0%,
+      var(--header-bg-thin) 6%, transparent 6%,
+      transparent 11%, var(--header-bg-thin) 11%,
+      var(--header-bg-thin) 17%, transparent 17%,
+      transparent 22%, var(--header-bg-thin) 22%,
+      var(--header-bg-thin) 28%, transparent 28%,
+      transparent 33%, var(--header-bg-thin) 33%,
+      var(--header-bg-thin) 39%, transparent 39%,
+      transparent 44%, var(--header-bg-thin) 44%,
+      var(--header-bg-thin) 50%, transparent 50%,
+      transparent 55%, var(--header-bg-thin) 55%,
+      var(--header-bg-thin) 61%, transparent 61%,
+      transparent 66%, var(--header-bg-thin) 66%,
+      var(--header-bg-thin) 72%, transparent 72%,
+      transparent 77%, var(--header-bg-thin) 77%,
+      var(--header-bg-thin) 83%, transparent 83%,
+      transparent 88%, var(--header-bg-thin) 88%,
+      var(--header-bg-thin) 94%, transparent 94%,
+      transparent 100%);
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 20px, 0 0, 20px 20px, 0 0;
+
+  opacity: 1;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+#safetyGuard.deleted{
+  opacity: 0;
+  transform: translateY(-100vh);
+}
+
+.guardBox{
+  p{
+    margin-bottom: 1rem;
+  }
+  ul{
+    background-color: #e16fff4d;
+    padding: 1rem 2rem;
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+    box-shadow: #5b176c54 2px 2px 4px 0px;
+  }
+  h2{
+    position: relative;
+    display: inline-block;
+    padding: 0.25em 1em;
+    margin-bottom: 2rem;
+    line-height: 1;
+  }
+  h2:before, h2:after { 
+    position: absolute;
+    top: 0;
+    content:'';
+    width: 8px;
+    height: 100%;
+    display: inline-block;
+  }
+  h2:before {
+    border-left: solid 1px black;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    left: 0;
+  }
+  h2:after {
+    content: '';
+    border-top: solid 1px black;
+    border-right: solid 1px black;
+    border-bottom: solid 1px black;
+    right: 0;
+  }
+}

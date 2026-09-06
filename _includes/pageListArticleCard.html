@@ -1,0 +1,47 @@
+<div class="article-card">
+  {% if include.hero_image and include.hero_image != "disabled" %}
+  <img src="{{ post.hero_image | relative_url }}" alt="記事サムネイル">
+  {% else %}
+  {% if include.news %}
+  <img src="{{ '/assets/img/common/news_place.png' | relative_url }}" alt="記事サムネイル">
+  {% else %}
+  <img src="{{ '/assets/img/common/noimage_place.png' | relative_url }}" alt="記事サムネイル">
+  {% endif %}
+  {% endif %}
+
+  <div class="list-meta">
+
+    <p class="article-card-title">
+      <a href="{{ include.url }}" class="stretched-link">{{ include.title }}</a>
+    </p>
+
+    <ul class="tags article-card-tags">
+      {% for tag_id in include.tags %}
+
+      {% if include.news %}
+      {% assign tag_info = site.data.news_tags[tag_id] %}
+      {% assign tag_color = tag_info.color %}
+      {% assign URL_head = "news" %}
+      {% else %}
+      {% assign tag_info = site.data.tags[tag_id] %}
+      {% assign tag_category = tag_info.category %}
+      {% assign tag_color = site.data.category[tag_category] %}
+      {% assign URL_head = "articles" %}
+      {% endif %}
+
+      {% assign tag_name = tag_info.name %}
+
+      {% if tag_info %}
+      <li><a href='{{ "/" | relative_url }}{{ URL_head }}/tags/{{ tag_id }}' style="color: {{ tag_color }};"
+          class="tag-link">{{
+          tag_name }}</a></li>
+      {% else %}
+      <li>{{ tag_id }}</li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+
+  </div>
+
+  <p class="article-card-date">{{ include.date | date: "%Y年%m月%d日" }}</p>
+</div>

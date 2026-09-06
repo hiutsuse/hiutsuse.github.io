@@ -1,0 +1,15 @@
+<a href="{{ include.url }}">
+  <div class="article-card">
+    {% if include.hero_image and include.hero_image != "disabled"  %}
+      <img src="{{ post.hero_image | relative_url }}" alt="記事サムネイル">
+    {% else %}
+      {% if include.news %}
+        <img src="{{ '/assets/img/common/news_place.png' | relative_url }}" alt="記事サムネイル">
+      {% else %}
+        <img src="{{ '/assets/img/common/noimage_place.png' | relative_url }}" alt="記事サムネイル">
+      {% endif %}
+    {% endif %}
+    <p class="article-card-title">{{ include.title }}</p>
+    <p class="article-card-date">{{ include.date | date: "%Y年%m月%d日" }}</p>
+  </div>
+</a>

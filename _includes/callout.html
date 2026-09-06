@@ -1,0 +1,5 @@
+{% if include.type == "text" %}
+<div class="col-text">
+  <p class="col-title">{% else %}
+<div class="callout{% if include.type %} {{ include.type }}{% endif %}">
+  <p class="callout-title">{% endif %}{{ include.title }}</p>{{ include.content }}</div>

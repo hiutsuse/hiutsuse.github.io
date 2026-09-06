@@ -1,0 +1,35 @@
+{% assign segments = page.url | split: "/" | where_exp: "item", "item != ''" %}
+
+<nav class="breadcrumb" aria-label="パンくずリスト">
+  <ol>
+    <li><a href="{{ '/' | relative_url }}">ホーム</a></li>
+
+    {% if segments.size > 0 %}
+      {% assign root = segments[0] %}
+      {% if root == "articles" %}
+        {% assign root_label = "記事一覧" %}
+      {% elsif root == "news" %}
+        {% assign root_label = "おしらせ一覧" %}
+      {% else %}
+        {% assign root_label = root %}
+      {% endif %}
+      {% assign root_url = "/" | append: root | append: "/" %}
+
+      {% if segments.size == 1 %}
+        <li aria-current="page">{{ root_label }}</li>
+      {% else %}
+        <li><a href="{{ root_url | relative_url }}">{{ root_label }}</a></li>
+
+        {% if segments[1] == "tags" %}
+          {% assign tag_id = segments[2] %}
+          {% assign tag_info = site.data.tags[tag_id] %}
+          {% assign tag_name = tag_info.name | default: tag_id %}
+          <li aria-current="page">タグ：{{ tag_name }}</li>
+
+        {% else %}
+          <li aria-current="page">{{ page.title }}</li>
+        {% endif %}
+      {% endif %}
+    {% endif %}
+  </ol>
+</nav>

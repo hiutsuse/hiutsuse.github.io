@@ -1,0 +1,13 @@
+<header>
+  <h1>{{ include.title }}</h1>
+  <p class="subtitle">記事総数：{{ include.posts | size }}枚</p>
+</header>
+<div class="other-articles" style="font-size: 80%;">
+  <div class="article-section page-list">
+    <div class="boxes">
+      {% for post in include.posts %}
+      {% include pageListArticleCard.html url=post.url title=post.title date=post.date hero_image=post.hero_image news=include.news tags=post.tags %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

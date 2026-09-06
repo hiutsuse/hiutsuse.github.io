@@ -1,0 +1,11 @@
+pickup_article:
+  title: "今週のピックアップ記事"
+  message: "今週のピックアップです！今週はテストですけどね～～"
+  slugs:
+    - "inside-the-store"
+    - "DOCUMENT"
+    - "ruri-recent-situation"
+
+status:
+  message: "眠いっ！！"
+  type: "nonsense"

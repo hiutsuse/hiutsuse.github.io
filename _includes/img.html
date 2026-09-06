@@ -1,0 +1,6 @@
+<div class="img-wrapper{% if include.vt %} vt{% endif %}">
+  <a href='{{ include.src | relative_url }}' data-lightbox="{{ include.group | default: page.slug }}">
+    <img src='{{ include.src | relative_url }}' alt="{{ include.alt }}">
+  </a>
+  <span>{{ include.alt }}</span>
+</div>

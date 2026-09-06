@@ -53,10 +53,22 @@ jekyll-archives:
     - tags
   layout: 'tag_page'
   permalinks:
-    tag: '/tags/:name/'
+    tag: '/articles/tags/:name/'
   scope:
-    type: [posts, news]
-    
+    type: posts
+
+jekyll-archives:
+  enabled:
+    - tags
+  layout: 'tag_page'
+  permalinks:
+    tag: '/news/tags/:name/'
+  scope:
+    type: news
+
+kramdown:
+  auto_ids: false
+
 # ビルドするときに無視してほしいファイル
 exclude:
   - Gemfile

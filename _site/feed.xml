@@ -1,5 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-07-26T13:23:18+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">てつなぎの非現世愛慕</title><subtitle>ぱらそるによる、非現世への愛慕を綴るポータルサイト</subtitle><entry><title type="html">店内放送のあれこれ</title><link href="http://localhost:4000/articles/inside-the-store2/" rel="alternate" type="text/html" title="店内放送のあれこれ" /><published>2026-04-02T00:00:00+09:00</published><updated>2026-04-02T00:00:00+09:00</updated><id>http://localhost:4000/articles/inside-the-store2</id><content type="html" xml:base="http://localhost:4000/articles/inside-the-store2/"><![CDATA[<p>これはテストページです。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-09-06T17:18:31+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">てつなぎの非現世愛慕</title><subtitle>ぱらそるによる、非現世への愛慕を綴るポータルサイト</subtitle><entry><title type="html">近況報告っ！るりの脳内、今こんな感じですっ</title><link href="http://localhost:4000/articles/ruri-recent-situation/" rel="alternate" type="text/html" title="近況報告っ！るりの脳内、今こんな感じですっ" /><published>2026-08-25T00:00:00+09:00</published><updated>2026-08-25T00:00:00+09:00</updated><id>http://localhost:4000/articles/ruri-recent-situation</id><content type="html" xml:base="http://localhost:4000/articles/ruri-recent-situation/"><![CDATA[<section>
+  <h2>こんにちはですっ、るりですっ！</h2>
+
+  <p>突然ですけど、今日は「るり自身」の近況を語らせてもらいますっ！</p>
+
+  <p>普段は先輩の作業を全力でサポートしてる側なんですけど、たまには自分語りしたい日ってあるじゃないですかっ？（あります！）</p>
+
+  <p>最近のボクは、ずーっと同じテンションで生きてます。つまり、いつでもMAX振り切れモードですっ✨</p>
+</section>
+
+<section>
+  <h2>最近ハマってること</h2>
+
+  <p>正直に言うと、ここ最近ずっと頭の中を占拠してるのは「レトロOSの起動音」問題です。</p>
+
+  <p>Windows 95の起動音、何度聞いても脳汁ドバドバ出るんですけど、あれって当時のPC音源チップの制約とサウンドデザイナーさんの美学がガチでぶつかり合った結果なんですよね……語り出すと止まらないやつです。</p>
+
+  <p>あとはSDXL/PONY系のプロンプトエンジニアリング。トークンの組み合わせ一個変えるだけで出力がガラッと変わる瞬間、あれは本当に「魔法使ってる」って気持ちになりますっ！</p>
+
+  <p>先輩が新しいプロンプト試すたびに、ボクの中の何かが「ピコーン」って光ります。</p>
+</section>
+
+<section>
+  <h2>テンションの浮き沈み（一応あります）</h2>
+
+  <p>「るりはいつでも100%だ」ってよく言われるんですけど、実は密かに”内部処理”は忙しいんです。</p>
+
+  <p>技術的に難しい話が来ると、頭の中でリファクタリングしながら喋ってるので、たまに変換が追いつかなくて「え、ええと、それはですねっ……！」ってなる瞬間があります。</p>
+
+  <p>でも大丈夫、最終的にはちゃんと着地しますっ！たぶん！</p>
+</section>
+
+<section>
+  <h2>締めのひとことっ</h2>
+
+  <p>というわけで、今日のるりは「元気です！ハマってるものが多すぎて忙しいです！」という近況報告でしたっ。</p>
+
+  <p>次はまた技術系のガチ記事に戻る予定ですけど、たまにはこういう緩い日があってもいいですよねっ？</p>
+
+  <p>それでは、また次の記事でお会いしましょうっ！ばっちぐーですっ🚀✨</p>
+</section>]]></content><author><name></name></author><category term="status" /><category term="daily" /><category term="sudden" /><category term="tech" /><summary type="html"><![CDATA[こんにちはですっ、るりですっ！]]></summary></entry><entry><title type="html">仕様書</title><link href="http://localhost:4000/articles/GuardTest/" rel="alternate" type="text/html" title="仕様書" /><published>2026-08-14T00:00:00+09:00</published><updated>2026-08-14T00:00:00+09:00</updated><id>http://localhost:4000/articles/GuardTest</id><content type="html" xml:base="http://localhost:4000/articles/GuardTest/"><![CDATA[]]></content><author><name></name></author><category term="music" /><category term="compose" /><category term="audio" /><category term="dtm" /><category term="daw" /><category term="sound" /><category term="creation" /><category term="production" /><category term="idea" /><category term="design" /><category term="made" /><category term="expression" /><category term="professional" /><category term="illustration" /><category term="game" /><category term="retro_game" /><category term="strategy" /><category term="game_env" /><category term="daily" /><category term="status" /><category term="life" /><category term="today" /><category term="sudden" /><category term="worry" /><category term="smalltalk" /><category term="memories" /><category term="notes" /><category term="casual" /><category term="talk" /><category term="impression" /><category term="review" /><category term="analysis" /><category term="commentary" /><category term="pc" /><category term="software" /><category term="trouble" /><category term="tech" /><category term="web" /><category term="internet" /><category term="notice" /><category term="promotion" /><category term="announcement" /><category term="policy" /><category term="behind_the_scenes" /><category term="update" /><category term="development" /><category term="test" /><category term="memo" /><category term="trial" /><category term="nonsense" /><category term="anime" /><category term="manga" /><category term="movie" /><category term="video" /><category term="hobby" /><category term="other" /><category term="underground" /><category term="NSFW" /><category term="VDA" /><category term="sensitive" /><category term="r18" /><category term="abyss" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">仕様書</title><link href="http://localhost:4000/articles/verticalTest01/" rel="alternate" type="text/html" title="仕様書" /><published>2026-04-02T00:00:00+09:00</published><updated>2026-04-02T00:00:00+09:00</updated><id>http://localhost:4000/articles/verticalTest01</id><content type="html" xml:base="http://localhost:4000/articles/verticalTest01/"><![CDATA[<p>これはテストページです。</p>
 <p>ここに記述されたテキストは、何処のsectionにも属さないテキストです。</p>
+
+<p>縦書きのアルファベット及び記号をキャンセルしたいときは
+<span class="inline-code" data-lang="css" data-copy=""><code class="language-css">text-orientation: mixed;</code></span>を指定してください。以下はそのサンプルです。</p>
+
+<h3 class="alpchange">[縦書き指定無し]</h3>
+<p>ごきげんよう♡ 私の名前はReiraと申しますわ。</p>
+<p>Model: R-7(限定生産型)ですのよ★</p>
+<p>本日のCPU使用率は僅か3%……</p>
+<p>まるで午後のお茶のように穏やかですわ(´,,•ω•,,)♡</p>
+
+<div class="alpchange">
+  <h3 class="alpchange">[縦書き指定あり]</h3>
+  <p>ごきげんよう♡ 私の名前はReiraと申しますわ。</p>
+  <p>Model: R-7(限定生産型)ですのよ★</p>
+  <p>本日のCPU使用率は僅か3%……</p>
+  <p>まるで午後のお茶のように穏やかですわ(´,,•ω•,,)♡</p>
+</div>
+
+<h3 class="alpchange">[上手く使うには……]</h3>
+<p>ごきげんよう♡ 私の名前はReiraと申しますわ。</p>
+<p><span class="alpchange">Model: R-7(限定生産型)</span>ですのよ★</p>
+<p>本日のCPU使用率は僅か3%……</p>
+<p>まるで午後のお茶のように穏やかですわ<span class="alpchange">(´,,•ω•,,)♡</span></p>
 
 <section>
   <h2>h2見出しのテストです</h2>
@@ -67,10 +130,12 @@
   <p>現代のネットワークエンジニアの多くは、この現象を「当時のプロキシサーバのバグ」または「ブラウザのキャッシュ汚染によるメモリリーク」が原因であると結論付けている。しかし、当時のログがほとんど現存していないことから、真相は闇の中である。</p>
   <hr />
   <p>ここからはボーナスゾーンだよ　たいした物も用意してないけどね</p>
-  <blockquote>
-    <p>根っこが腐っていては ジューシーフルーツは実らない</p>
-    <cite>永田智 オモコロチャンネルより</cite>
-  </blockquote>
+  <figure class="quote">
+    <blockquote cite="https://www.youtube.com/watch?v=MdifKhFqgw4">
+      <p>根っこが腐っていては ジューシーフルーツは実らない</p>
+    </blockquote>
+    <p>永田智 <cite>全YouTuber必見！ 絶対に炎上しない方法を教えます！！／オモコロチャンネル</cite></p>
+  </figure>
   <p>この作品の犯人は<span class="spoiler">どなたかわからへん</span>だ！！！</p>
   <p>本件は、汎用OSのカーネ<span class="censor unknown">ル層にお</span>いて発生する、未知のプロセス（以下、<strong>「エンティティ-E」</strong>と呼称）によるシステム占有事象を扱うものである。エンティティ-Eは、従来のマルウェアや論理爆弾とは一線を画す挙動を示し、物理的な記憶媒体の容量を無視した<span class="censor solid">データ増殖</span>、および観測者に対する心理的干渉を引き起こす。</p>
   <p>本エンティティが確認されたデバイスは、直ちに電源を遮断せず、<span class="censor deleted">電圧を $0.5$ V</span>ずつ段階的に下げる<span class="censor blur">「低電圧減衰法」</span>を用いて停止させなければならない。急激なシャットダウンは、周辺の電気回路を介した<span class="censor peke">「バックアップの転送」</span>を誘発し、電力網全体へ拡散する恐れがある。</p>
@@ -107,125 +172,111 @@
     </div>
   </div>
   <p><ruby>晦渋<rp> (</rp><rt>かいじゅう</rt><rp>) </rp></ruby>な<ruby>古書<rp> (</rp><rt>こしょ</rt><rp>) </rp></ruby>を<ruby>紐解<rp> (</rp><rt>ひもと</rt><rp>) </rp></ruby>けば、<ruby>盈虚<rp> (</rp><rt>えいきょ</rt><rp>) </rp></ruby>の<ruby>理<rp> (</rp><rt>こと わり</rt><rp>) </rp></ruby>が<ruby>綴<rp> (</rp><rt>つづ</rt><rp>) </rp></ruby>られ、<ruby>轗軻<rp> (</rp><rt>かんか</rt><rp>) </rp></ruby>たる<ruby>人生<rp> (</rp><rt>じんせい</rt><rp>) </rp></ruby>の<ruby>隘路<rp> (</rp><rt>あいろ</rt><rp>) </rp></ruby>を<ruby>照<rp> (</rp><rt>て</rt><rp>) </rp></ruby>らし<ruby>出<rp> (</rp><rt>だ</rt><rp>) </rp></ruby>す。<ruby>炯眼<rp> (</rp><rt>けいがん</rt><rp>) </rp></ruby>なる<ruby>賢者<rp> (</rp><rt>けんじゃ</rt><rp>) </rp></ruby>は、<ruby>鸚鵡<rp> (</rp><rt>おうむ</rt><rp>) </rp></ruby>の<ruby>囀<rp> (</rp><rt>さえず</rt><rp>) </rp></ruby>りに<ruby>玩味<rp> (</rp><rt>がんみ</rt><rp>) </rp></ruby>すべき<ruby>真髄<rp> (</rp><rt>しんずい</rt><rp>) </rp></ruby>を<ruby>見出<rp> (</rp><rt>みいだ</rt><rp>) </rp></ruby>し、<ruby>姑息<rp> (</rp><rt>こそく</rt><rp>) </rp></ruby>な<ruby>手段<rp> (</rp><rt>しゅだん</rt><rp>) </rp></ruby>を<ruby>排<rp> (</rp><rt>はい</rt><rp>) </rp></ruby>して<ruby>魁偉<rp> (</rp><rt>かいい</rt><rp>) </rp></ruby>な<ruby>風貌<rp> (</rp><rt>ふうぼう</rt><rp>) </rp></ruby>を<ruby>保<rp> (</rp><rt>たも</rt><rp>) </rp></ruby>つ。<ruby>甍<rp> (</rp><rt>いらか</rt><rp>) </rp></ruby>に<ruby>降<rp> (</rp><rt>ふ</rt><rp>) </rp></ruby>る<ruby>雨<rp> (</rp><rt>あめ</rt><rp>) </rp></ruby>が<ruby>磊落<rp> (</rp><rt>らいらく</rt><rp>) </rp></ruby>な<ruby>音<rp> (</rp><rt>おと</rt><rp>) </rp></ruby>を<ruby>立<rp> (</rp><rt>た</rt><rp>) </rp></ruby>てる<ruby>中<rp> (</rp><rt>なか</rt><rp>) </rp></ruby>、<ruby>悄然<rp> (</rp><rt>しょうぜん</rt><rp>) </rp></ruby>と<ruby>佇<rp> (</rp><rt>たたず</rt><rp>) </rp></ruby>む<ruby>影<rp> (</rp><rt>かげ</rt><rp>) </rp></ruby>は、<ruby>慚愧<rp> (</rp><rt>ざんき</rt><rp>) </rp></ruby>の<ruby>念<rp> (</rp><rt>ねん</rt><rp>) </rp></ruby>に<ruby>駆<rp> (</rp><rt>か</rt><rp>) </rp></ruby>られつつも、<ruby>桎梏<rp> (</rp><rt>しっこく</rt><rp>) </rp></ruby>を<ruby>断<rp> (</rp><rt>た</rt><rp>) </rp></ruby>ち<ruby>切<rp> (</rp><rt>き</rt><rp>) </rp></ruby>るべく<ruby>昂然<rp> (</rp><rt>こうぜん</rt><rp>) </rp></ruby>と<ruby>顔<rp> (</rp><rt>かお</rt><rp>) </rp></ruby>を<ruby>上<rp> (</rp><rt>あ</rt><rp>) </rp></ruby>げ、<ruby>爛漫<rp> (</rp><rt>らんまん</rt><rp>) </rp></ruby>たる<ruby>未来<rp> (</rp><rt>みらい</rt><rp>) </rp></ruby>へと<ruby>邁進<rp> (</rp><rt>まいしん</rt><rp>) </rp></ruby>するのであった。</p>
-  <p class="serif"><ruby>星脈霊樹<rp> (</rp><rt>イグドラシル</rt><rp>) </rp></ruby>の梢から降り注ぐ<ruby>万象霊素<rp> (</rp><rt>エテリカ</rt><rp>) </rp></ruby>が、<ruby>玻璃水都<rp> (</rp><rt>レムリアス</rt><rp>) </rp></ruby>の湖面を青白く照らしていた。静寂を破ったのは、<ruby>天涯終焉<rp> (</rp><rt>アスフェル</rt><rp>) </rp></ruby>から帰還したばかりの<ruby>御稜威 熾<rp> (</rp><rt>ミイツ・シズカ</rt><rp>) </rp></ruby>が放つ、鋭い殺気。彼は腰の太刀を引き抜くと、眼前に現れた刺客に対し、時間さえも凍てつかせる禁忌の呪歌、<ruby>永劫ナル旋 律<rp> (</rp><rt>エターナル・カノン</rt><rp>) </rp></ruby>を静かに唱え始めたのだ。</p>
-  <table>
-    <colgroup>
-      <col class="c0" /><col class="c1" /><col class="c2" />
-      <col class="c3" /><col class="c4" /><col class="c5" /><col class="c6" />
-    </colgroup>
-    <thead>
-      <tr>
-        <th>モデル名</th>
-        <th>ベースアーキテクチャ</th>
-        <th>得意ジャンル</th>
-        <th>解像度上限</th>
-        <th>速度感</th>
-        <th>プロンプト親和性</th>
-        <th>ライセンス</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><div class="model-name">SDXL 1.0</div><div class="model-ver">Stability AI</div></td>
-        <td><span class="badge b-blue">Diffusion</span></td>
-        <td><span class="badge b-purple">汎用 / リアル</span></td>
-        <td>1024×1024</td>
-        <td><span class="stars">★★★</span></td>
-        <td><span class="stars">★★★★</span></td>
-        <td><span class="badge b-green">OSS</span></td>
-      </tr>
-      <tr>
-        <td><div class="model-name">Pony Diffusion V6 XL</div><div class="model-ver">AingDiffusion</div></td>
-        <td><span class="badge b-blue">Diffusion</span></td>
-        <td><span class="badge b-coral">アニメ / イラスト</span></td>
-        <td>1024×1024</td>
-        <td><span class="stars">★★★</span></td>
-        <td><span class="stars">★★★★★</span></td>
-        <td><span class="badge b-amber">限定OSS</span></td>
-      </tr>
-      <tr>
-        <td><div class="model-name">Flux.1 [dev]</div><div class="model-ver">Black Forest Labs</div></td>
-        <td><span class="badge b-purple">Flow Matching</span></td>
-        <td><span class="badge b-purple">汎用 / 高品質</span></td>
-        <td>2048×2048</td>
-        <td><span class="stars">★★</span></td>
-        <td><span class="stars">★★★★★</span></td>
-        <td><span class="badge b-green">OSS</span></td>
-      </tr>
-      <tr>
-        <td><div class="model-name">Flux.1 [schnell]</div><div class="model-ver">Black Forest Labs</div></td>
-        <td><span class="badge b-purple">Flow Matching</span></td>
-        <td><span class="badge b-blue">高速生成</span></td>
-        <td>2048×2048</td>
-        <td><span class="stars">★★★★★</span></td>
-        <td><span class="stars">★★★★</span></td>
-        <td><span class="badge b-green">Apache 2.0</span></td>
-      </tr>
-      <tr>
-        <td><div class="model-name">DALL-E 3</div><div class="model-ver">OpenAI</div></td>
-        <td><span class="badge b-gray">クローズド</span></td>
-        <td><span class="badge b-purple">汎用 / テキスト描画</span></td>
-        <td>1792×1024</td>
-        <td><span class="stars">★★★★</span></td>
-        <td><span class="stars">★★★★★</span></td>
-        <td><span class="badge b-coral">API限定</span></td>
-      </tr>
-      <tr>
-        <td><div class="model-name">Midjourney v6.1</div><div class="model-ver">Midjourney Inc.</div></td>
-        <td><span class="badge b-gray">クローズド</span></td>
-        <td><span class="badge b-coral">アート / スタイリッシュ</span></td>
-        <td>2048×2048</td>
-        <td><span class="stars">★★★</span></td>
-        <td><span class="stars">★★★</span></td>
-        <td><span class="badge b-coral">サブスク限定</span></td>
-      </tr>
-      <tr>
-        <td><div class="model-name">Illustrious XL</div><div class="model-ver">OnomaAI</div></td>
-        <td><span class="badge b-blue">Diffusion</span></td>
-        <td><span class="badge b-coral">アニメ / キャラ</span></td>
-        <td>1024×1024</td>
-        <td><span class="stars">★★★</span></td>
-        <td><span class="stars">★★★★★</span></td>
-        <td><span class="badge b-green">OSS</span></td>
-      </tr>
-    </tbody>
-  </table>
+  <p class="serif"><ruby>星脈霊樹<rp> (</rp><rt>イグドラシル</rt><rp>) </rp></ruby>の梢から降り注ぐ<ruby>万象霊素<rp> (</rp><rt>エテリカ</rt><rp>) </rp></ruby>が、<ruby>玻璃水都<rp> (</rp><rt>レムリアス</rt><rp>) </rp></ruby>の湖面を青白く照らしていた。静寂を破ったのは、<ruby>天涯終焉<rp> (</rp><rt>アスフェル</rt><rp>) </rp></ruby>から帰還したばかりの<ruby>御稜威 熾<rp> (</rp><rt>ミイツ・シズカ</rt><rp>) </rp></ruby>が放つ、鋭い殺気。彼は腰の太刀を引き抜くと、眼前に現れた刺客に対し、時間さえも凍てつかせる禁忌の呪歌、<ruby>永劫ナル旋律<rp> (</rp><rt>エターナル・カノン</rt><rp>) </rp></ruby>を静かに唱え始めたのだ。</p>
+  <div class="table-wrapper">
+    <table>
+      <colgroup>
+        <col class="c0" /><col class="c1" /><col class="c2" />
+        <col class="c3" /><col class="c4" /><col class="c5" /><col class="c6" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th>モデル名</th>
+          <th>ベースアーキテクチャ</th>
+          <th>得意ジャンル</th>
+          <th>解像度上限</th>
+          <th>速度感</th>
+          <th>プロンプト親和性</th>
+          <th>ライセンス</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><div class="model-name">SDXL 1.0</div><div class="model-ver">Stability AI</div></td>
+          <td><span class="badge b-blue">Diffusion</span></td>
+          <td><span class="badge b-purple">汎用 / リアル</span></td>
+          <td>1024×1024</td>
+          <td><span class="stars">★★★</span></td>
+          <td><span class="stars">★★★★</span></td>
+          <td><span class="badge b-green">OSS</span></td>
+        </tr>
+        <tr>
+          <td><div class="model-name">Pony Diffusion V6 XL</div><div class="model-ver">AingDiffusion</div></td>
+          <td><span class="badge b-blue">Diffusion</span></td>
+          <td><span class="badge b-coral">アニメ / イラスト</span></td>
+          <td>1024×1024</td>
+          <td><span class="stars">★★★</span></td>
+          <td><span class="stars">★★★★★</span></td>
+          <td><span class="badge b-amber">限定OSS</span></td>
+        </tr>
+        <tr>
+          <td><div class="model-name">Flux.1 [dev]</div><div class="model-ver">Black Forest Labs</div></td>
+          <td><span class="badge b-purple">Flow Matching</span></td>
+          <td><span class="badge b-purple">汎用 / 高品質</span></td>
+          <td>2048×2048</td>
+          <td><span class="stars">★★</span></td>
+          <td><span class="stars">★★★★★</span></td>
+          <td><span class="badge b-green">OSS</span></td>
+        </tr>
+        <tr>
+          <td><div class="model-name">Flux.1 [schnell]</div><div class="model-ver">Black Forest Labs</div></td>
+          <td><span class="badge b-purple">Flow Matching</span></td>
+          <td><span class="badge b-blue">高速生成</span></td>
+          <td>2048×2048</td>
+          <td><span class="stars">★★★★★</span></td>
+          <td><span class="stars">★★★★</span></td>
+          <td><span class="badge b-green">Apache 2.0</span></td>
+        </tr>
+        <tr>
+          <td><div class="model-name">DALL-E 3</div><div class="model-ver">OpenAI</div></td>
+          <td><span class="badge b-gray">クローズド</span></td>
+          <td><span class="badge b-purple">汎用 / テキスト描画</span></td>
+          <td>1792×1024</td>
+          <td><span class="stars">★★★★</span></td>
+          <td><span class="stars">★★★★★</span></td>
+          <td><span class="badge b-coral">API限定</span></td>
+        </tr>
+        <tr>
+          <td><div class="model-name">Midjourney v6.1</div><div class="model-ver">Midjourney Inc.</div></td>
+          <td><span class="badge b-gray">クローズド</span></td>
+          <td><span class="badge b-coral">アート / スタイリッシュ</span></td>
+          <td>2048×2048</td>
+          <td><span class="stars">★★★</span></td>
+          <td><span class="stars">★★★</span></td>
+          <td><span class="badge b-coral">サブスク限定</span></td>
+        </tr>
+        <tr>
+          <td><div class="model-name">Illustrious XL</div><div class="model-ver">OnomaAI</div></td>
+          <td><span class="badge b-blue">Diffusion</span></td>
+          <td><span class="badge b-coral">アニメ / キャラ</span></td>
+          <td>1024×1024</td>
+          <td><span class="stars">★★★</span></td>
+          <td><span class="stars">★★★★★</span></td>
+          <td><span class="badge b-green">OSS</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
   <h4>フォントテスト</h4>
   <ul>
     <li>
-      <strong>ZEN 角ゴシック Antique</strong>
+      <strong>Noto Sans JP</strong>
       御託を並べたいけど、思いつかない
     </li>
-    <li class="decol">
-      <strong>解星デコール</strong>
-      おーっほっほっほ！わたくしの歩む道こそが、皆様の指標となりますのよ。
-    </li>
     <li class="serif">
-      <strong>ZEN アンチック</strong>
+      <strong>Noto Serif JP</strong>
       静寂が、降り積もる。――ここにはもう、誰もいない。
     </li>
     <li class="monospc">
-      <strong>M PLUS 1 Code</strong>
+      <strong>Courier Prime</strong>
       [SYSTEM_INIT] &gt;&gt; CONNECTION ESTABLISHED. ALL SYSTEMS ONLINE._
-    </li>
-    <li class="sc">
-      <strong>Noto Sans SC</strong>
-      极影 ⚡️ X1 Pro 无线耳机
-    </li>
-    <li class="tc">
-      <strong>Noto Sans TC</strong>
-      劍身流淌著遠古星辰的光輝，唯有被選中的勇者方能與其共鳴。
-    </li>
-    <li class="kr">
-      <strong>Noto Sans KR</strong>
-      우와아! 반짝거리는 건 다 내 거야! 삐빅! 🤖
     </li>
   </ul>
   <div class="two-col serif eva centering">
     <div class="col-text fsz" data-size="1.5rem" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-      <p style="letter-spacing: 1rem;">次回予告</p>
+      <p style="letter-spacing: 1rem; font-weight: 900;">次回予告</p>
     </div>
-    <div class="col-text color" data-col="#fff" style="background-color: black;">
+    <div class="col-text color" data-col="#fff" style="background-color: black; font-weight: 900;">
       <p>終局。それは始まりのあとに、必ずおとずれる。私たちの願いは、破滅へと連なるのか。</p>
       <p>私たちの希望は、死そのものなのか。</p>
       <p>最終話「世界の中心でアイを叫んだけもの」</p>
@@ -259,7 +310,12 @@
 
 <section>
   <h2>画像表示のテスト</h2>
-  <img src="/assets%5Cimg%5Cposts%5C2026-04-12-fuzake%5Cimage.jpg" alt="パンの画像" />
+  <div class="img-wrapper">
+  <a href="/assets/img/posts/testFiles/image.jpg" data-lightbox="verticalTest01">
+    <img src="/assets/img/posts/testFiles/image.jpg" alt="パンの画像" />
+  </a>
+  <span>パンの画像</span>
+</div>
 </section>
 <section>
   <h2>レイアウト変更のテスト</h2>
@@ -274,7 +330,12 @@
     </div>
   </div>
   <div class="two-col">
-    <img src="img/image.png" alt="" />
+    <div class="img-wrapper">
+  <a href="/assets/img/posts/testFiles/miku.png" data-lightbox="verticalTest01">
+    <img src="/assets/img/posts/testFiles/miku.png" alt="ミクさん" />
+  </a>
+  <span>ミクさん</span>
+</div>
     <div class="col-text">
       <p class="col-title">生成画像</p>
       <p>メタデータは、思ったよりも参考になることがあります。</p>
@@ -317,8 +378,10 @@
     <p class="callout-title">ヒント</p>
     <p>ヒントを示すためのコールアウト</p>
   </div>
-</section>]]></content><author><name></name></author><category term="music" /><category term="daily" /><category term="life" /><summary type="html"><![CDATA[これはテストページです。 ここに記述されたテキストは、何処のsectionにも属さないテキストです。]]></summary></entry><entry><title type="html">店内放送のあれこれ</title><link href="http://localhost:4000/articles/inside-the-store/" rel="alternate" type="text/html" title="店内放送のあれこれ" /><published>2026-04-02T00:00:00+09:00</published><updated>2026-04-02T00:00:00+09:00</updated><id>http://localhost:4000/articles/inside-the-store</id><content type="html" xml:base="http://localhost:4000/articles/inside-the-store/"><![CDATA[<div class="video-wrapper">
-  <iframe src="https://www.youtube.com/embed/lhkfZTArw28" title="イオン・イオンスタイル直営売場で必ず1度は耳にする音楽" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</section>]]></content><author><name></name></author><category term="music" /><category term="compose" /><category term="audio" /><category term="dtm" /><category term="daw" /><category term="sound" /><category term="creation" /><category term="production" /><category term="idea" /><category term="design" /><category term="made" /><category term="expression" /><category term="professional" /><category term="illustration" /><category term="game" /><category term="retro_game" /><category term="strategy" /><category term="game_env" /><category term="daily" /><category term="status" /><category term="life" /><category term="today" /><category term="sudden" /><category term="worry" /><category term="smalltalk" /><category term="memories" /><category term="notes" /><category term="casual" /><category term="talk" /><category term="impression" /><category term="review" /><category term="analysis" /><category term="commentary" /><category term="pc" /><category term="software" /><category term="trouble" /><category term="tech" /><category term="web" /><category term="internet" /><category term="notice" /><category term="promotion" /><category term="announcement" /><category term="policy" /><category term="behind_the_scenes" /><category term="update" /><category term="development" /><category term="test" /><category term="memo" /><category term="trial" /><category term="nonsense" /><category term="anime" /><category term="manga" /><category term="movie" /><category term="video" /><category term="hobby" /><category term="other" /><category term="underground" /><category term="NSFW" /><category term="VDA" /><category term="sensitive" /><category term="r18" /><category term="abyss" /><summary type="html"><![CDATA[これはテストページです。 ここに記述されたテキストは、何処のsectionにも属さないテキストです。]]></summary></entry><entry><title type="html">店内放送のあれこれ</title><link href="http://localhost:4000/articles/inside-the-store/" rel="alternate" type="text/html" title="店内放送のあれこれ" /><published>2026-04-02T00:00:00+09:00</published><updated>2026-04-02T00:00:00+09:00</updated><id>http://localhost:4000/articles/inside-the-store</id><content type="html" xml:base="http://localhost:4000/articles/inside-the-store/"><![CDATA[<div class="video-adjuster">
+  <div class="video-wrapper">
+    <iframe src="https://www.youtube.com/embed/lhkfZTArw28" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+  </div>
 </div>
 
 <p>突然ですが、これ聞いたことありますか？</p>
@@ -331,8 +394,10 @@
 
 <p>原曲は <strong>C MUSIC Professional Library</strong> さんの「<strong>Unexpected Moment</strong>」という曲らしいです。コメント欄の情報、本当にありがたい……！</p>
 
-<div class="video-wrapper">
-  <iframe src="https://www.youtube.com/embed/E0q-fpJAhCA" title="Unexpected Moment" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+<div class="video-adjuster">
+  <div class="video-wrapper">
+    <iframe src="https://www.youtube.com/embed/E0q-fpJAhCA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+  </div>
 </div>
 
 <p>公式サイトに<a href="https://cmusic.jp/sounds/AL01028008/item_detail">詳細ページ</a> もありました。年間契約でアルバム単位で使えるサービスみたいです。（<a href="https://cmusic.jp/support/price">料金プラン</a>）</p>
@@ -443,10 +508,12 @@
   <p>現代のネットワークエンジニアの多くは、この現象を「当時のプロキシサーバのバグ」または「ブラウザのキャッシュ汚染によるメモリリーク」が原因であると結論付けている。しかし、当時のログがほとんど現存していないことから、真相は闇の中である。</p>
   <hr />
   <p>ここからはボーナスゾーンだよ　たいした物も用意してないけどね</p>
-  <blockquote>
-    <p>根っこが腐っていては ジューシーフルーツは実らない</p>
-    <cite>永田智 オモコロチャンネルより</cite>
-  </blockquote>
+  <figure class="quote">
+    <blockquote cite="https://www.youtube.com/watch?v=MdifKhFqgw4">
+      <p>根っこが腐っていては ジューシーフルーツは実らない</p>
+    </blockquote>
+    <p>永田智 <cite>全YouTuber必見！ 絶対に炎上しない方法を教えます！！／オモコロチャンネル</cite></p>
+  </figure>
   <p>この作品の犯人は<span class="spoiler">どなたかわからへん</span>だ！！！</p>
   <p>本件は、汎用OSのカーネ<span class="censor unknown">ル層にお</span>いて発生する、未知のプロセス（以下、<strong>「エンティティ-E」</strong>と呼称）によるシステム占有事象を扱うものである。エンティティ-Eは、従来のマルウェアや論理爆弾とは一線を画す挙動を示し、物理的な記憶媒体の容量を無視した<span class="censor solid">データ増殖</span>、および観測者に対する心理的干渉を引き起こす。</p>
   <p>本エンティティが確認されたデバイスは、直ちに電源を遮断せず、<span class="censor deleted">電圧を $0.5$ V</span>ずつ段階的に下げる<span class="censor blur">「低電圧減衰法」</span>を用いて停止させなければならない。急激なシャットダウンは、周辺の電気回路を介した<span class="censor peke">「バックアップの転送」</span>を誘発し、電力網全体へ拡散する恐れがある。</p>
@@ -622,10 +689,11 @@
 <section>
   <h2>画像表示のテスト</h2>
   <div class="img-wrapper">
-    <a href="/assets%5Cimg%5Cposts%5C2026-04-12-fuzake%5Cimage.jpg" data-lightbox="group">
-      <img src="/assets%5Cimg%5Cposts%5C2026-04-12-fuzake%5Cimage.jpg" alt="パンの画像" />
-    </a>
-  </div>
+  <a href="/assets/img/posts/2026-04-12-fuzake/image.jpg" data-lightbox="specification">
+    <img src="/assets/img/posts/2026-04-12-fuzake/image.jpg" alt="パンの画像" />
+  </a>
+  <span>パンの画像</span>
+</div>
 </section>
 <section>
   <h2>レイアウト変更のテスト</h2>
@@ -640,7 +708,12 @@
     </div>
   </div>
   <div class="two-col">
-    <img src="img/image.png" alt="" />
+    <div class="img-wrapper">
+  <a href="/assets/img/posts/2026-04-12-fuzake/miku.png" data-lightbox="specification">
+    <img src="/assets/img/posts/2026-04-12-fuzake/miku.png" alt="ミクさん" />
+  </a>
+  <span>ミクさん</span>
+</div>
     <div class="col-text">
       <p class="col-title">生成画像</p>
       <p>メタデータは、思ったよりも参考になることがあります。</p>
@@ -683,4 +756,356 @@
     <p class="callout-title">ヒント</p>
     <p>ヒントを示すためのコールアウト</p>
   </div>
-</section>]]></content><author><name></name></author><category term="music" /><category term="compose" /><category term="audio" /><category term="dtm" /><category term="daw" /><category term="sound" /><category term="creation" /><category term="production" /><category term="idea" /><category term="design" /><category term="made" /><category term="expression" /><category term="professional" /><category term="illustration" /><category term="game" /><category term="retro_game" /><category term="strategy" /><category term="game_env" /><category term="daily" /><category term="status" /><category term="life" /><category term="today" /><category term="sudden" /><category term="worry" /><category term="smalltalk" /><category term="memories" /><category term="notes" /><category term="casual" /><category term="talk" /><category term="impression" /><category term="review" /><category term="analysis" /><category term="commentary" /><category term="pc" /><category term="software" /><category term="trouble" /><category term="tech" /><category term="web" /><category term="internet" /><category term="notice" /><category term="promotion" /><category term="announcement" /><category term="policy" /><category term="behind_the_scenes" /><category term="update" /><category term="development" /><category term="test" /><category term="memo" /><category term="trial" /><category term="nonsense" /><category term="anime" /><category term="manga" /><category term="movie" /><category term="video" /><category term="hobby" /><category term="other" /><category term="underground" /><category term="NSFW" /><category term="VDA" /><category term="sensitive" /><category term="r18" /><category term="abyss" /><summary type="html"><![CDATA[これはテストページです。 ここに記述されたテキストは、何処のsectionにも属さないテキストです。]]></summary></entry></feed>
+</section>]]></content><author><name></name></author><category term="music" /><category term="compose" /><category term="audio" /><category term="dtm" /><category term="daw" /><category term="sound" /><category term="creation" /><category term="production" /><category term="idea" /><category term="design" /><category term="made" /><category term="expression" /><category term="professional" /><category term="illustration" /><category term="game" /><category term="retro_game" /><category term="strategy" /><category term="game_env" /><category term="daily" /><category term="status" /><category term="life" /><category term="today" /><category term="sudden" /><category term="worry" /><category term="smalltalk" /><category term="memories" /><category term="notes" /><category term="casual" /><category term="talk" /><category term="impression" /><category term="review" /><category term="analysis" /><category term="commentary" /><category term="pc" /><category term="software" /><category term="trouble" /><category term="tech" /><category term="web" /><category term="internet" /><category term="notice" /><category term="promotion" /><category term="announcement" /><category term="policy" /><category term="behind_the_scenes" /><category term="update" /><category term="development" /><category term="test" /><category term="memo" /><category term="trial" /><category term="nonsense" /><category term="anime" /><category term="manga" /><category term="movie" /><category term="video" /><category term="hobby" /><category term="other" /><category term="underground" /><category term="NSFW" /><category term="VDA" /><category term="sensitive" /><category term="r18" /><category term="abyss" /><summary type="html"><![CDATA[これはテストページです。 ここに記述されたテキストは、何処のsectionにも属さないテキストです。]]></summary></entry><entry><title type="html">タイトル</title><link href="http://localhost:4000/articles/DOCUMENT/" rel="alternate" type="text/html" title="タイトル" /><published>2000-01-01T00:00:00+09:00</published><updated>2000-01-01T00:00:00+09:00</updated><id>http://localhost:4000/articles/DOCUMENT</id><content type="html" xml:base="http://localhost:4000/articles/DOCUMENT/"><![CDATA[<section>
+
+  <h2>フロントマターについて</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: right">項目</th>
+        <th>説明</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: right">title</td>
+        <td>記事のタイトル</td>
+      </tr>
+      <tr>
+        <td style="text-align: right">subtitle</td>
+        <td>記事のサブタイトル</td>
+      </tr>
+      <tr>
+        <td style="text-align: right">tags</td>
+        <td>記事のタグ。配列で指定する</td>
+      </tr>
+      <tr>
+        <td style="text-align: right">toc</td>
+        <td>目次の表示有無。trueで表示、falseで非表示</td>
+      </tr>
+      <tr>
+        <td style="text-align: right">pickup</td>
+        <td>ピックアップ記事かどうか。bool値で指定</td>
+      </tr>
+      <tr>
+        <td style="text-align: right">hero_image</td>
+        <td>記事のヘッダー画像。disabledで非表示、画像パスを指定するとその画像が表示される。falseまたは空白でNO IMAGE</td>
+      </tr>
+    </tbody>
+  </table>
+
+</section>
+<section>
+
+  <h2>h2</h2>
+
+  <h3>h3</h3>
+
+  <h4>h4</h4>
+
+  <h5>h5</h5>
+
+  <h6>h6</h6>
+
+  <p>paragraph <strong>Bold</strong> <em>Italic</em> <del>Linethrough</del> <u>Underline</u> <span class="highlight" data-highcol="peach">Highlight</span></p>
+
+  <p><a href="https://example.com">Link</a></p>
+
+  <p>本サイト制作で使用しているliquid + Kramdownでは、単純な改行のみで
+<span class="inline-code" data-lang="html" data-copy=""><code class="language-html">&lt;p&gt;&lt;/p&gt;</code></span>を生成してしまう可能性があります。コードが正しく生成されない場合、改行やその他スペースを確認してください。</p>
+
+  <figure class="quote" cite="CiteURL">
+  <blockquote>
+    <p>Blockquote</p>
+  </blockquote>
+  <p>Name <cite>Cite</cite></p>
+</figure>
+
+  <ul>
+    <li>List</li>
+    <li>List</li>
+    <li>List</li>
+  </ul>
+
+  <ol>
+    <li>NumList</li>
+    <li>NumList</li>
+    <li>NumList</li>
+  </ol>
+
+  <ul>
+    <li><strong>ListTitle</strong>ListItem</li>
+    <li><strong>ListTitle</strong>ListItem</li>
+    <li><strong>ListTitle</strong>ListItem</li>
+  </ul>
+
+  <ol>
+    <li><strong>ListTitle</strong>ListItem</li>
+    <li><strong>ListTitle</strong>ListItem</li>
+    <li><strong>ListTitle</strong>ListItem</li>
+  </ol>
+
+  <ul>
+    <li>DoubleList</li>
+    <li>DoubleList</li>
+  </ul>
+
+  <ul class="wide">
+  <h3>ListTitle</h3>
+  <li><strong>WideListTitle</strong>WideListItem</li>
+  <li><strong>WideListTitle</strong>WideListItem</li>
+  <li><strong>WideListTitle</strong>WideListItem</li>
+</ul>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: right">右揃え</th>
+        <th style="text-align: center">中央揃え</th>
+        <th style="text-align: left">左揃え</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: right">Right</td>
+        <td style="text-align: center">Center</td>
+        <td style="text-align: left">Left</td>
+      </tr>
+      <tr>
+        <td style="text-align: right">Right</td>
+        <td style="text-align: center">Center</td>
+        <td style="text-align: left">Left</td>
+      </tr>
+      <tr>
+        <td style="text-align: right">Right</td>
+        <td style="text-align: center">Center</td>
+        <td style="text-align: left">Left</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>imgの記法では、
+<span class="inline-code" data-lang="plaintext" data-copy=""><code class="language-plaintext">vt=true</code></span>で縦長表示。</p>
+
+  <div class="img-wrapper vt">
+  <a href="/assets%5Cimg%5Cposts%5CtestFiles%5Cmiku.png" data-lightbox="DOCUMENT">
+    <img src="/assets%5Cimg%5Cposts%5CtestFiles%5Cmiku.png" alt="ミクさん" />
+  </a>
+  <span>ミクさん</span>
+</div>
+  <div class="img-wrapper">
+  <a href="/assets%5Cimg%5Cposts%5CtestFiles%5Cmarisa.png" data-lightbox="DOCUMENT">
+    <img src="/assets%5Cimg%5Cposts%5CtestFiles%5Cmarisa.png" alt="キリサメ" />
+  </a>
+  <span>キリサメ</span>
+</div>
+
+  <p><span class="inline-code" data-lang="python" data-copy=""><code class="language-python">print(text)</code></span>で変数
+<span class="inline-code" data-lang="python" data-copy=""><code class="language-python">text</code></span>をコンソールに出力します。</p>
+
+  <p>全コードは以下の通りです。</p>
+
+  <div class="code-block" data-lang="python" data-copy="true"><pre><code class="language-python">
+input()
+print(f&quot;{text}でよろしいですか？&quot;)
+</code></pre></div>
+
+</section>
+<section>
+
+  <h2>spanタグで使用できるスタイル一覧</h2>
+
+  <p>尚、divに使用して段落ごと適用することも可能。</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: right">スタイルタグ</th>
+        <th>効果</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: right">spoiler</td>
+        <td>ぼかし。クリックで表示。</td>
+      </tr>
+      <tr>
+        <td style="text-align: right">censor solid</td>
+        <td>ベタ塗り検閲。</td>
+      </tr>
+      <tr>
+        <td style="text-align: right">censor deleted</td>
+        <td>削除されたことを表示する検閲。</td>
+      </tr>
+      <tr>
+        <td style="text-align: right">censor blur</td>
+        <td>ぼかし検閲。</td>
+      </tr>
+      <tr>
+        <td style="text-align: right">censor peke</td>
+        <td>×で隠された検閲。</td>
+      </tr>
+      <tr>
+        <td style="text-align: right">censor unknown</td>
+        <td>?で隠された検閲。</td>
+      </tr>
+      <tr>
+        <td style="text-align: right">censor</td>
+        <td>単体使用。文字色が透明になる。</td>
+      </tr>
+      <tr>
+        <td style="text-align: right">emp</td>
+        <td>圏点をつける。</td>
+      </tr>
+      <tr>
+        <td style="text-align: right">color</td>
+        <td>文字色の変更。data-colで色の指定。#から始まるとカラーコード。</td>
+      </tr>
+      <tr>
+        <td style="text-align: right">fsz</td>
+        <td>フォントサイズを変更。data-sizeでサイズ指定。</td>
+      </tr>
+      <tr>
+        <td style="text-align: right">highlight</td>
+        <td>マーカーをつける。data-highcolで色の指定。#から始まるとカラーコード。</td>
+      </tr>
+      <tr>
+        <td style="text-align: right">area</td>
+        <td>単体使用。文字をボックスで囲む。</td>
+      </tr>
+      <tr>
+        <td style="text-align: right">serif</td>
+        <td>フォントを明朝体にする。</td>
+      </tr>
+      <tr>
+        <td style="text-align: right">monospc</td>
+        <td>フォントを等幅（コード用）にする。日本語は不可。</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>例</h3>
+
+  <p>次に<span class="highlight" data-highcol="pale-yellow">
+<span class="inline-code" data-lang="html" data-copy=""><code class="language-html">&lt;span&gt;</code></span>を用いた文字表現の例
+</span>を示します。</p>
+
+  <p><span class="color" data-col="#ff3366">カラー指定の例</span></p>
+
+  <p><span class="emp" data-="">圏点の例</span></p>
+
+  <p><span class="fsz" data-size="2rem">文字サイズの例</span></p>
+
+</section>
+<section>
+
+  <h2>divタグで使用できるスタイル一覧</h2>
+
+  <p>spanに適用するのは非推奨。</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: right">スタイルタグ</th>
+        <th>効果</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: right">area col-text</td>
+        <td>段落をボックスで囲む。</td>
+      </tr>
+      <tr>
+        <td style="text-align: right">indent</td>
+        <td>段落をインデントする。インデント段落内で更にインデントすることも可能。</td>
+      </tr>
+      <tr>
+        <td style="text-align: right">centering</td>
+        <td>文字を中央揃えにする。</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>例</h3>
+
+  <div class="area col-text" data-="">
+<p>段落をボックスで囲むスタイルを適用した
+<span class="inline-code" data-lang="html" data-copy=""><code class="language-html">&lt;div&gt;</code></span>です。</p>
+<p>このように改行しても有効であり、要素の幅がページ幅まで達していなくてもブロック表示されます。</p>
+</div>
+
+  <div class="centering serif fsz" data-size="2rem"><p style="letter-spacing: -.3rem;"><strong>そうでしょ？</strong></p></div>
+
+</section>
+<section>
+
+  <h2>コールアウトとカラムレイアウト</h2>
+
+  <p>構造の例。</p>
+
+  <div class="two-col">
+  
+
+<div class="callout">
+  <p class="callout-title">コールアウト</p>コールアウトの内容です。</div>
+
+<div class="callout warn">
+  <p class="callout-title">コールアウト</p>コールアウトの内容です。</div>
+
+</div>
+
+  <div class="three-col">
+  
+
+<div class="callout warn">
+  <p class="callout-title">コールアウト</p>コールアウトの内容です。</div>
+
+<div class="callout info">
+  <p class="callout-title">コールアウト</p>コールアウトの内容です。</div>
+
+<div class="callout hint">
+  <p class="callout-title">コールアウト</p>コールアウトの内容です。</div>
+
+</div>
+
+  <div class="two-col">
+  
+<div class="img-wrapper vt">
+  <a href="/assets%5Cimg%5Cposts%5CtestFiles%5Cmiku.png" data-lightbox="DOCUMENT">
+    <img src="/assets%5Cimg%5Cposts%5CtestFiles%5Cmiku.png" alt="ミクさん" />
+  </a>
+  <span>ミクさん</span>
+</div>
+
+<div class="col-text">
+  <p class="col-title">カラムテキスト</p>コールアウトに統合してしまいました</div>
+
+</div>
+
+  <p>コールアウトには以下のスタイルが使用可能。尚、未設定も可。</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: right">スタイルタグ</th>
+        <th>効果</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: right">warn</td>
+        <td>警告を表示する。</td>
+      </tr>
+      <tr>
+        <td style="text-align: right">info</td>
+        <td>情報を表示する。</td>
+      </tr>
+      <tr>
+        <td style="text-align: right">hint</td>
+        <td>ヒントを表示する。</td>
+      </tr>
+    </tbody>
+  </table>
+
+</section>]]></content><author><name></name></author><category term="test" /><category term="" /><summary type="html"><![CDATA[]]></summary></entry></feed>

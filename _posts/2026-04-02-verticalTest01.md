@@ -1,15 +1,36 @@
 ---
-title: "店内放送のあれこれ"
-subtitle: "もはや生活を超越し、ココロにまでしみこむ領域で。"
-tags: ["music", "daily", "life", ]
+title: "仕様書"
+subtitle: "だってわからんもん"
+tags: ["music", "compose", "audio", "dtm", "daw", "sound", "creation","production","idea","design","made","expression","professional","illustration","game","retro_game","strategy","game_env","daily","status","life","today","sudden","worry","smalltalk","memories","notes","casual","talk","impression","review","analysis","commentary","pc","software","trouble","tech","web","internet","notice","promotion","announcement","policy","behind_the_scenes","update","development","test","memo","trial","nonsense","anime","manga","movie","video","hobby","other","underground","NSFW","VDA","sensitive","r18","abyss"]
 toc: false
-pickup: true
 hero_image: 
-layout: vertical_post
+vertical: true
 ---
 
 <p>これはテストページです。</p>
 <p>ここに記述されたテキストは、何処のsectionにも属さないテキストです。</p>
+
+<p>縦書きのアルファベット及び記号をキャンセルしたいときは{% include code.html type="inline" lang="css" canCopy="" code="text-orientation: mixed;" %}を指定してください。以下はそのサンプルです。</p>
+
+<h3 class="alpchange">[縦書き指定無し]</h3>
+<p>ごきげんよう♡ 私の名前はReiraと申しますわ。</p>
+<p>Model: R-7(限定生産型)ですのよ★</p>
+<p>本日のCPU使用率は僅か3%……</p>
+<p>まるで午後のお茶のように穏やかですわ(´,,•ω•,,)♡</p>
+
+<div class="alpchange">
+  <h3 class="alpchange">[縦書き指定あり]</h3>
+  <p>ごきげんよう♡ 私の名前はReiraと申しますわ。</p>
+  <p>Model: R-7(限定生産型)ですのよ★</p>
+  <p>本日のCPU使用率は僅か3%……</p>
+  <p>まるで午後のお茶のように穏やかですわ(´,,•ω•,,)♡</p>
+</div>
+
+<h3 class="alpchange">[上手く使うには……]</h3>
+<p>ごきげんよう♡ 私の名前はReiraと申しますわ。</p>
+<p><span class="alpchange">Model: R-7(限定生産型)</span>ですのよ★</p>
+<p>本日のCPU使用率は僅か3%……</p>
+<p>まるで午後のお茶のように穏やかですわ<span class="alpchange">(´,,•ω•,,)♡</span></p>
 
 <section>
   <h2>h2見出しのテストです</h2>
@@ -77,10 +98,12 @@ layout: vertical_post
   <p>現代のネットワークエンジニアの多くは、この現象を「当時のプロキシサーバのバグ」または「ブラウザのキャッシュ汚染によるメモリリーク」が原因であると結論付けている。しかし、当時のログがほとんど現存していないことから、真相は闇の中である。</p>
   <hr>
   <p>ここからはボーナスゾーンだよ　たいした物も用意してないけどね</p>
-  <blockquote>
-    <p>根っこが腐っていては ジューシーフルーツは実らない</p>
-    <cite>永田智 オモコロチャンネルより</cite>
-  </blockquote>
+  <figure class="quote">
+    <blockquote cite="https://www.youtube.com/watch?v=MdifKhFqgw4">
+      <p>根っこが腐っていては ジューシーフルーツは実らない</p>
+    </blockquote>
+    <p>永田智 <cite>全YouTuber必見！ 絶対に炎上しない方法を教えます！！／オモコロチャンネル</cite></p>
+  </figure>
   <p>この作品の犯人は<span class="spoiler">どなたかわからへん</span>だ！！！</p>
   <p>本件は、汎用OSのカーネ<span class="censor unknown">ル層にお</span>いて発生する、未知のプロセス（以下、<strong>「エンティティ-E」</strong>と呼称）によるシステム占有事象を扱うものである。エンティティ-Eは、従来のマルウェアや論理爆弾とは一線を画す挙動を示し、物理的な記憶媒体の容量を無視した<span class="censor solid">データ増殖</span>、および観測者に対する心理的干渉を引き起こす。</p>
   <p>本エンティティが確認されたデバイスは、直ちに電源を遮断せず、<span class="censor deleted">電圧を $0.5$ V</span>ずつ段階的に下げる<span class="censor blur">「低電圧減衰法」</span>を用いて停止させなければならない。急激なシャットダウンは、周辺の電気回路を介した<span class="censor peke">「バックアップの転送」</span>を誘発し、電力網全体へ拡散する恐れがある。</p>
@@ -117,125 +140,111 @@ layout: vertical_post
     </div>
   </div>
   <p><ruby>晦渋<rp> (</rp><rt>かいじゅう</rt><rp>) </rp></ruby>な<ruby>古書<rp> (</rp><rt>こしょ</rt><rp>) </rp></ruby>を<ruby>紐解<rp> (</rp><rt>ひもと</rt><rp>) </rp></ruby>けば、<ruby>盈虚<rp> (</rp><rt>えいきょ</rt><rp>) </rp></ruby>の<ruby>理<rp> (</rp><rt>こと わり</rt><rp>) </rp></ruby>が<ruby>綴<rp> (</rp><rt>つづ</rt><rp>) </rp></ruby>られ、<ruby>轗軻<rp> (</rp><rt>かんか</rt><rp>) </rp></ruby>たる<ruby>人生<rp> (</rp><rt>じんせい</rt><rp>) </rp></ruby>の<ruby>隘路<rp> (</rp><rt>あいろ</rt><rp>) </rp></ruby>を<ruby>照<rp> (</rp><rt>て</rt><rp>) </rp></ruby>らし<ruby>出<rp> (</rp><rt>だ</rt><rp>) </rp></ruby>す。<ruby>炯眼<rp> (</rp><rt>けいがん</rt><rp>) </rp></ruby>なる<ruby>賢者<rp> (</rp><rt>けんじゃ</rt><rp>) </rp></ruby>は、<ruby>鸚鵡<rp> (</rp><rt>おうむ</rt><rp>) </rp></ruby>の<ruby>囀<rp> (</rp><rt>さえず</rt><rp>) </rp></ruby>りに<ruby>玩味<rp> (</rp><rt>がんみ</rt><rp>) </rp></ruby>すべき<ruby>真髄<rp> (</rp><rt>しんずい</rt><rp>) </rp></ruby>を<ruby>見出<rp> (</rp><rt>みいだ</rt><rp>) </rp></ruby>し、<ruby>姑息<rp> (</rp><rt>こそく</rt><rp>) </rp></ruby>な<ruby>手段<rp> (</rp><rt>しゅだん</rt><rp>) </rp></ruby>を<ruby>排<rp> (</rp><rt>はい</rt><rp>) </rp></ruby>して<ruby>魁偉<rp> (</rp><rt>かいい</rt><rp>) </rp></ruby>な<ruby>風貌<rp> (</rp><rt>ふうぼう</rt><rp>) </rp></ruby>を<ruby>保<rp> (</rp><rt>たも</rt><rp>) </rp></ruby>つ。<ruby>甍<rp> (</rp><rt>いらか</rt><rp>) </rp></ruby>に<ruby>降<rp> (</rp><rt>ふ</rt><rp>) </rp></ruby>る<ruby>雨<rp> (</rp><rt>あめ</rt><rp>) </rp></ruby>が<ruby>磊落<rp> (</rp><rt>らいらく</rt><rp>) </rp></ruby>な<ruby>音<rp> (</rp><rt>おと</rt><rp>) </rp></ruby>を<ruby>立<rp> (</rp><rt>た</rt><rp>) </rp></ruby>てる<ruby>中<rp> (</rp><rt>なか</rt><rp>) </rp></ruby>、<ruby>悄然<rp> (</rp><rt>しょうぜん</rt><rp>) </rp></ruby>と<ruby>佇<rp> (</rp><rt>たたず</rt><rp>) </rp></ruby>む<ruby>影<rp> (</rp><rt>かげ</rt><rp>) </rp></ruby>は、<ruby>慚愧<rp> (</rp><rt>ざんき</rt><rp>) </rp></ruby>の<ruby>念<rp> (</rp><rt>ねん</rt><rp>) </rp></ruby>に<ruby>駆<rp> (</rp><rt>か</rt><rp>) </rp></ruby>られつつも、<ruby>桎梏<rp> (</rp><rt>しっこく</rt><rp>) </rp></ruby>を<ruby>断<rp> (</rp><rt>た</rt><rp>) </rp></ruby>ち<ruby>切<rp> (</rp><rt>き</rt><rp>) </rp></ruby>るべく<ruby>昂然<rp> (</rp><rt>こうぜん</rt><rp>) </rp></ruby>と<ruby>顔<rp> (</rp><rt>かお</rt><rp>) </rp></ruby>を<ruby>上<rp> (</rp><rt>あ</rt><rp>) </rp></ruby>げ、<ruby>爛漫<rp> (</rp><rt>らんまん</rt><rp>) </rp></ruby>たる<ruby>未来<rp> (</rp><rt>みらい</rt><rp>) </rp></ruby>へと<ruby>邁進<rp> (</rp><rt>まいしん</rt><rp>) </rp></ruby>するのであった。</p>
-  <p class="serif"><ruby>星脈霊樹<rp> (</rp><rt>イグドラシル</rt><rp>) </rp></ruby>の梢から降り注ぐ<ruby>万象霊素<rp> (</rp><rt>エテリカ</rt><rp>) </rp></ruby>が、<ruby>玻璃水都<rp> (</rp><rt>レムリアス</rt><rp>) </rp></ruby>の湖面を青白く照らしていた。静寂を破ったのは、<ruby>天涯終焉<rp> (</rp><rt>アスフェル</rt><rp>) </rp></ruby>から帰還したばかりの<ruby>御稜威 熾<rp> (</rp><rt>ミイツ・シズカ</rt><rp>) </rp></ruby>が放つ、鋭い殺気。彼は腰の太刀を引き抜くと、眼前に現れた刺客に対し、時間さえも凍てつかせる禁忌の呪歌、<ruby>永劫ナル旋 律<rp> (</rp><rt>エターナル・カノン</rt><rp>) </rp></ruby>を静かに唱え始めたのだ。</p>
-  <table>
-    <colgroup>
-      <col class="c0"><col class="c1"><col class="c2">
-      <col class="c3"><col class="c4"><col class="c5"><col class="c6">
-    </colgroup>
-    <thead>
-      <tr>
-        <th>モデル名</th>
-        <th>ベースアーキテクチャ</th>
-        <th>得意ジャンル</th>
-        <th>解像度上限</th>
-        <th>速度感</th>
-        <th>プロンプト親和性</th>
-        <th>ライセンス</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><div class="model-name">SDXL 1.0</div><div class="model-ver">Stability AI</div></td>
-        <td><span class="badge b-blue">Diffusion</span></td>
-        <td><span class="badge b-purple">汎用 / リアル</span></td>
-        <td>1024×1024</td>
-        <td><span class="stars">★★★</span></td>
-        <td><span class="stars">★★★★</span></td>
-        <td><span class="badge b-green">OSS</span></td>
-      </tr>
-      <tr>
-        <td><div class="model-name">Pony Diffusion V6 XL</div><div class="model-ver">AingDiffusion</div></td>
-        <td><span class="badge b-blue">Diffusion</span></td>
-        <td><span class="badge b-coral">アニメ / イラスト</span></td>
-        <td>1024×1024</td>
-        <td><span class="stars">★★★</span></td>
-        <td><span class="stars">★★★★★</span></td>
-        <td><span class="badge b-amber">限定OSS</span></td>
-      </tr>
-      <tr>
-        <td><div class="model-name">Flux.1 [dev]</div><div class="model-ver">Black Forest Labs</div></td>
-        <td><span class="badge b-purple">Flow Matching</span></td>
-        <td><span class="badge b-purple">汎用 / 高品質</span></td>
-        <td>2048×2048</td>
-        <td><span class="stars">★★</span></td>
-        <td><span class="stars">★★★★★</span></td>
-        <td><span class="badge b-green">OSS</span></td>
-      </tr>
-      <tr>
-        <td><div class="model-name">Flux.1 [schnell]</div><div class="model-ver">Black Forest Labs</div></td>
-        <td><span class="badge b-purple">Flow Matching</span></td>
-        <td><span class="badge b-blue">高速生成</span></td>
-        <td>2048×2048</td>
-        <td><span class="stars">★★★★★</span></td>
-        <td><span class="stars">★★★★</span></td>
-        <td><span class="badge b-green">Apache 2.0</span></td>
-      </tr>
-      <tr>
-        <td><div class="model-name">DALL-E 3</div><div class="model-ver">OpenAI</div></td>
-        <td><span class="badge b-gray">クローズド</span></td>
-        <td><span class="badge b-purple">汎用 / テキスト描画</span></td>
-        <td>1792×1024</td>
-        <td><span class="stars">★★★★</span></td>
-        <td><span class="stars">★★★★★</span></td>
-        <td><span class="badge b-coral">API限定</span></td>
-      </tr>
-      <tr>
-        <td><div class="model-name">Midjourney v6.1</div><div class="model-ver">Midjourney Inc.</div></td>
-        <td><span class="badge b-gray">クローズド</span></td>
-        <td><span class="badge b-coral">アート / スタイリッシュ</span></td>
-        <td>2048×2048</td>
-        <td><span class="stars">★★★</span></td>
-        <td><span class="stars">★★★</span></td>
-        <td><span class="badge b-coral">サブスク限定</span></td>
-      </tr>
-      <tr>
-        <td><div class="model-name">Illustrious XL</div><div class="model-ver">OnomaAI</div></td>
-        <td><span class="badge b-blue">Diffusion</span></td>
-        <td><span class="badge b-coral">アニメ / キャラ</span></td>
-        <td>1024×1024</td>
-        <td><span class="stars">★★★</span></td>
-        <td><span class="stars">★★★★★</span></td>
-        <td><span class="badge b-green">OSS</span></td>
-      </tr>
-    </tbody>
-  </table>
+  <p class="serif"><ruby>星脈霊樹<rp> (</rp><rt>イグドラシル</rt><rp>) </rp></ruby>の梢から降り注ぐ<ruby>万象霊素<rp> (</rp><rt>エテリカ</rt><rp>) </rp></ruby>が、<ruby>玻璃水都<rp> (</rp><rt>レムリアス</rt><rp>) </rp></ruby>の湖面を青白く照らしていた。静寂を破ったのは、<ruby>天涯終焉<rp> (</rp><rt>アスフェル</rt><rp>) </rp></ruby>から帰還したばかりの<ruby>御稜威 熾<rp> (</rp><rt>ミイツ・シズカ</rt><rp>) </rp></ruby>が放つ、鋭い殺気。彼は腰の太刀を引き抜くと、眼前に現れた刺客に対し、時間さえも凍てつかせる禁忌の呪歌、<ruby>永劫ナル旋律<rp> (</rp><rt>エターナル・カノン</rt><rp>) </rp></ruby>を静かに唱え始めたのだ。</p>
+  <div class="table-wrapper">
+    <table>
+      <colgroup>
+        <col class="c0"><col class="c1"><col class="c2">
+        <col class="c3"><col class="c4"><col class="c5"><col class="c6">
+      </colgroup>
+      <thead>
+        <tr>
+          <th>モデル名</th>
+          <th>ベースアーキテクチャ</th>
+          <th>得意ジャンル</th>
+          <th>解像度上限</th>
+          <th>速度感</th>
+          <th>プロンプト親和性</th>
+          <th>ライセンス</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><div class="model-name">SDXL 1.0</div><div class="model-ver">Stability AI</div></td>
+          <td><span class="badge b-blue">Diffusion</span></td>
+          <td><span class="badge b-purple">汎用 / リアル</span></td>
+          <td>1024×1024</td>
+          <td><span class="stars">★★★</span></td>
+          <td><span class="stars">★★★★</span></td>
+          <td><span class="badge b-green">OSS</span></td>
+        </tr>
+        <tr>
+          <td><div class="model-name">Pony Diffusion V6 XL</div><div class="model-ver">AingDiffusion</div></td>
+          <td><span class="badge b-blue">Diffusion</span></td>
+          <td><span class="badge b-coral">アニメ / イラスト</span></td>
+          <td>1024×1024</td>
+          <td><span class="stars">★★★</span></td>
+          <td><span class="stars">★★★★★</span></td>
+          <td><span class="badge b-amber">限定OSS</span></td>
+        </tr>
+        <tr>
+          <td><div class="model-name">Flux.1 [dev]</div><div class="model-ver">Black Forest Labs</div></td>
+          <td><span class="badge b-purple">Flow Matching</span></td>
+          <td><span class="badge b-purple">汎用 / 高品質</span></td>
+          <td>2048×2048</td>
+          <td><span class="stars">★★</span></td>
+          <td><span class="stars">★★★★★</span></td>
+          <td><span class="badge b-green">OSS</span></td>
+        </tr>
+        <tr>
+          <td><div class="model-name">Flux.1 [schnell]</div><div class="model-ver">Black Forest Labs</div></td>
+          <td><span class="badge b-purple">Flow Matching</span></td>
+          <td><span class="badge b-blue">高速生成</span></td>
+          <td>2048×2048</td>
+          <td><span class="stars">★★★★★</span></td>
+          <td><span class="stars">★★★★</span></td>
+          <td><span class="badge b-green">Apache 2.0</span></td>
+        </tr>
+        <tr>
+          <td><div class="model-name">DALL-E 3</div><div class="model-ver">OpenAI</div></td>
+          <td><span class="badge b-gray">クローズド</span></td>
+          <td><span class="badge b-purple">汎用 / テキスト描画</span></td>
+          <td>1792×1024</td>
+          <td><span class="stars">★★★★</span></td>
+          <td><span class="stars">★★★★★</span></td>
+          <td><span class="badge b-coral">API限定</span></td>
+        </tr>
+        <tr>
+          <td><div class="model-name">Midjourney v6.1</div><div class="model-ver">Midjourney Inc.</div></td>
+          <td><span class="badge b-gray">クローズド</span></td>
+          <td><span class="badge b-coral">アート / スタイリッシュ</span></td>
+          <td>2048×2048</td>
+          <td><span class="stars">★★★</span></td>
+          <td><span class="stars">★★★</span></td>
+          <td><span class="badge b-coral">サブスク限定</span></td>
+        </tr>
+        <tr>
+          <td><div class="model-name">Illustrious XL</div><div class="model-ver">OnomaAI</div></td>
+          <td><span class="badge b-blue">Diffusion</span></td>
+          <td><span class="badge b-coral">アニメ / キャラ</span></td>
+          <td>1024×1024</td>
+          <td><span class="stars">★★★</span></td>
+          <td><span class="stars">★★★★★</span></td>
+          <td><span class="badge b-green">OSS</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
   <h4>フォントテスト</h4>
   <ul>
     <li>
-      <strong>ZEN 角ゴシック Antique</strong>
+      <strong>Noto Sans JP</strong>
       御託を並べたいけど、思いつかない
     </li>
-    <li class="decol">
-      <strong>解星デコール</strong>
-      おーっほっほっほ！わたくしの歩む道こそが、皆様の指標となりますのよ。
-    </li>
     <li class="serif">
-      <strong>ZEN アンチック</strong>
+      <strong>Noto Serif JP</strong>
       静寂が、降り積もる。――ここにはもう、誰もいない。
     </li>
     <li class="monospc">
-      <strong>M PLUS 1 Code</strong>
+      <strong>Courier Prime</strong>
       [SYSTEM_INIT] >> CONNECTION ESTABLISHED. ALL SYSTEMS ONLINE._
-    </li>
-    <li class="sc">
-      <strong>Noto Sans SC</strong>
-      极影 ⚡️ X1 Pro 无线耳机
-    </li>
-    <li class="tc">
-      <strong>Noto Sans TC</strong>
-      劍身流淌著遠古星辰的光輝，唯有被選中的勇者方能與其共鳴。
-    </li>
-    <li class="kr">
-      <strong>Noto Sans KR</strong>
-      우와아! 반짝거리는 건 다 내 거야! 삐빅! 🤖
     </li>
   </ul>
   <div class="two-col serif eva centering">
     <div class="col-text fsz" data-size="1.5rem" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-      <p style="letter-spacing: 1rem;">次回予告</p>
+      <p style="letter-spacing: 1rem; font-weight: 900;">次回予告</p>
     </div>
-    <div class="col-text color" data-col="#fff" style="background-color: black;">
+    <div class="col-text color" data-col="#fff" style="background-color: black; font-weight: 900;">
       <p>終局。それは始まりのあとに、必ずおとずれる。私たちの願いは、破滅へと連なるのか。</p>
       <p>私たちの希望は、死そのものなのか。</p>
       <p>最終話「世界の中心でアイを叫んだけもの」</p>
@@ -269,7 +278,7 @@ layout: vertical_post
 
 <section>
   <h2>画像表示のテスト</h2>
-  <img src='{{ "assets\img\posts\2026-04-12-fuzake\image.jpg" | relative_url }}' alt="パンの画像">
+  {% include img.html src="assets/img/posts/testFiles/image.jpg" alt="パンの画像" %}
 </section>
 <section>
   <h2>レイアウト変更のテスト</h2>
@@ -284,7 +293,7 @@ layout: vertical_post
     </div>
   </div>
   <div class="two-col">
-    <img src="img/image.png" alt="">
+    {% include img.html src="assets/img/posts/testFiles/miku.png" alt="ミクさん" %}
     <div class="col-text">
       <p class="col-title">生成画像</p>
       <p>メタデータは、思ったよりも参考になることがあります。</p>

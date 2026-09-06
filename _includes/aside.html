@@ -1,0 +1,45 @@
+<aside>
+  <div class="box">
+    <p>当サイトには広告が含まれている場合がございます。詳しくは<a href="/privacy.html">プライバシーポリシー</a>をご覧ください。</p>
+  </div>
+  <div class="box sticky">
+    {% if page.toc %}
+    <div class="box author-card">
+      <div class="header">
+        <img src="{{ '/assets/img/common/serizawa-rapee.png' | relative_url }}" alt="authorIcon">
+        <p class="name">ぱらそる</p>
+      </div>
+      <p>極楽蜻蛉。雑食。ですから、餌を与えてください。</p>
+      <p><a href="">もっとみる</a></p>
+    </div>
+    <div class="box">
+      <nav>
+        <div class="toc">
+          <p><i class="bi bi-list-ul"></i>目次</p>
+          <ul class="tocList">
+          </ul>
+        </div>
+      </nav>
+    </div>
+    {% endif %}
+
+    <div class="box share">
+      <p>シェアする</p>
+      <div class="share-links">
+        <div class="hatena">
+          <a href="#" target="_blank" rel="nofollow noopener" class="share-hatena" title="はてなブックマークに投稿"
+            alt="はてなブックマークのアイコン"><img src="{{ '/assets/img/common/hatena-bookmark-icon.svg' | relative_url }}"
+              width="16px"></a>
+        </div>
+        <div class="x">
+          <a href="#" target="_blank" rel="nofollow noopener" class="share-x" title="Xでシェア"><i
+              class="bi bi-twitter-x"></i></a>
+        </div>
+        <div class="line">
+          <a href="#" target="_blank" rel="nofollow noopener" class="share-line" title="LINEで共有"><i
+              class="bi bi-line"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</aside>

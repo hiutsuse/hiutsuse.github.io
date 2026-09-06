@@ -1,52 +1,82 @@
 ---
 layout: default
 ---
+<!-- ===== 特殊CSS ===== -->
+{% if page.vertical == true %}
+<style>
+  .container {
+    overflow-x: auto;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    height: 85vh;
+  }
+
+  .container> :not(header, nav) img {
+    max-width: auto;
+    max-height: 100%;
+  }
+
+  .container> :not(header, nav) table {
+    display: block;
+    overflow-y: auto;
+  }
+
+  .alpchange {
+    text-orientation: mixed;
+  }
+</style>
+{% endif %}
 <!-- ===== ヒーローイメージ ===== -->
-{% if page.hero_image %}
-<figure class="full-bleed" style="--hero-url: url({{ page.hero_image | relative_url }})">
+{% if page.hero_image == "disabled" %}
+<!-- ===== この記事ではヒーローイメージは非表示になっています。 ===== -->
+{% elsif page.hero_image %}
+<figure class="heroImg full-bleed" style="--hero-url: url({{ page.hero_image | relative_url }})">
   <img src="{{ page.hero_image | relative_url }}" alt="ヒーローイメージ" fetchpriority="high">
 </figure>
 {% else %}
-<figure class="full-bleed" style='--hero-url: url({{ "/assets/img/common/noimage_place.png" | relative_url }})'>
+<figure class="heroImg full-bleed" style='--hero-url: url({{ "/assets/img/common/noimage_place.png" | relative_url }})'>
   <img src='{{ "/assets/img/common/noimage_place.png" | relative_url }}' alt="noimage" fetchpriority="high">
 </figure>
 {% endif %}
-<!-- ===== 記事ヘッダー ===== -->
-<div class="container">
-  <header>
-    <h1>{{ page.title }}</h1>
-    <p class="subtitle">{{ page.subtitle }}</p>
-    <div class="meta-info">
-      <p>ぱらそる</p>
-      <time datetime='{{ page.date | date: "%Y-%m-%d" }}'>{{ page.date | date: "%Y年%m月%d日" }}</time>
-      <!-- タグ一覧 -->
-      <ul class="tags">
-        {% for tag_id in page.tags %}
+<div class="layout">
+  <div class="container">
+    <!-- ===== 記事ヘッダー ===== -->
+    {% include breadcrumb.html %}
+    <header>
+      <h1>{{ page.title }}</h1>
+      <p class="subtitle">{{ page.subtitle }}</p>
+      <div class="meta-info">
+        <p>ぱらそる</p>
+        <time datetime='{{ page.date | date: "%Y-%m-%d" }}'>{{ page.date | date: "%Y年%m月%d日" }}</time>
+        <!-- タグ一覧 -->
+        <ul class="tags">
+          {% for tag_id in page.tags %}
           {% assign tag_info = site.data.tags[tag_id] %}
           {% assign tag_name = tag_info.name %}
           {% assign tag_category = tag_info.category %}
           {% assign tag_color = site.data.category[tag_category] %}
           {% if tag_info %}
-            <li>
-              <a href='{{ "/tags/" | relative_url }}{{ tag_id }}' style="color: {{ tag_color }};">{{ tag_name }}</a>
-            </li>
+          <li>
+            <a href='{{ "/articles/tags/" | relative_url }}{{ tag_id }}' style="color: {{ tag_color }};">{{ tag_name
+              }}</a>
+          </li>
           {% else %}
-            <li>{{ tag_id }}</li> {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
-  </header>
-  <!-- ===== ナビゲーション(目次とか人物・背景とか適宜変更しようね) ===== -->
-  {% if page.toc %}
+          <li>{{ tag_id }}</li> {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </header>
+    <!-- ===== ナビゲーション(目次とか人物・背景とか適宜変更しようね) ===== -->
+    {% if page.toc %}
     <nav>
       <div class="toc">
-        <p>目次</p>
-        <ol>
-        </ol>
+        <p><i class="bi bi-list-ul"></i>目次</p>
+        <ul class="tocList">
+        </ul>
       </div>
     </nav>
-  {% endif %}
-  <!-- ===== 本文 ===== -->
-  <article>
-    {{ content }}
-  </article>
+    {% endif %}
+    <!-- ===== 本文 ===== -->
+    <article>
+      {{ content }}
+    </article>

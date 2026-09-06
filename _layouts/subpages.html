@@ -20,35 +20,28 @@
   <title>
     {{ page.title }}　|　{{ site.title }}
   </title>
-  <!-- Thanks to Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="style"
-    href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans+JP:wght@500;900&family=Noto+Serif+JP:wght@600;900&display=swap">
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans+JP:wght@500;900&family=Noto+Serif+JP:wght@600;900&display=swap"
-    media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/vs2015.css"
-    media="print" onload="this.media='all'">
+  {% include headLinks.html %}
 </head>
 
 <body>
   <!-- header -->
   {% include header.html %}
   <main>
-    <div class="container">
-      <header>
-        <h1>{{ page.title }}</h1>
-        <div class="meta-info">
-          <p>最終更新日</p>
-          <time datetime='{{ page.update_date | date: "%Y-%m-%d" }}'>{{ page.update_date | date: "%Y年%m月%d日" }}</time>
-        </div>
-      </header>
-      <article>
-        {{ content }}
-      </article>
+
+    <div class="layout">
+      <div class="container">
+        {% include breadcrumb.html %}
+        <header>
+          <h1>{{ page.title }}</h1>
+          <div class="meta-info">
+            <p>最終更新日</p>
+            <time datetime='{{ page.update_date | date: "%Y-%m-%d" }}'>{{ page.update_date | date: "%Y年%m月%d日" }}</time>
+          </div>
+        </header>
+        <article>
+          {{ content }}
+        </article>
+      </div>
     </div>
     <div class="to-top full-bleed"><a href="#top"><i class="bi bi-arrow-bar-up"></i></a></div>
   </main>

@@ -3,13 +3,10 @@ title: "店内放送のあれこれ"
 subtitle: "もはや生活を超越し、ココロにまでしみこむ領域で。"
 tags: ["music", "daily", "life", ]
 toc: false
-pickup: true
 hero_image: 
 ---
 
-<div class="video-wrapper">
-  <iframe src="https://www.youtube.com/embed/lhkfZTArw28" title="イオン・イオンスタイル直営売場で必ず1度は耳にする音楽" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+{% include youtube.html id="lhkfZTArw28" %}
 
 突然ですが、これ聞いたことありますか？
 
@@ -21,9 +18,7 @@ hero_image:
 
 原曲は **C MUSIC Professional Library** さんの「**Unexpected Moment**」という曲らしいです。コメント欄の情報、本当にありがたい……！
 
-<div class="video-wrapper">
-  <iframe src="https://www.youtube.com/embed/E0q-fpJAhCA" title="Unexpected Moment" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+{% include youtube.html id="E0q-fpJAhCA" %}
 
 公式サイトに[詳細ページ](https://cmusic.jp/sounds/AL01028008/item_detail) もありました。年間契約でアルバム単位で使えるサービスみたいです。（[料金プラン](https://cmusic.jp/support/price)）
 

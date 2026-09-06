@@ -1,0 +1,3 @@
+{% if include.type == 'block' %}
+<div class="code-block" data-lang="{{ include.lang }}" data-copy="{{ include.canCopy }}"><pre><code class="language-{{ include.lang }}">{{ include.code }}</code></pre></div>{% elsif include.type == 'inline' %}
+<span class="inline-code" data-lang="{{ include.lang }}" data-copy="{{ include.canCopy }}"><code class="language-{{ include.lang }}">{{ include.code }}</code></span>{% endif %}
